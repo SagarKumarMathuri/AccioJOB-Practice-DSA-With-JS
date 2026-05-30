@@ -15,3 +15,7 @@ cout<<"Hello, World.\n";
 cout<<"Hello, JavaScript.";
 
 
+// Printing a Concatenated String
+
+console.log(`My num is ${10}`)
+
