@@ -4,18 +4,33 @@
 console.log("Hello, World.");
 console.log("Hello, JavaScript.")
 
-// For Java:
-System.out.println("Hello, World.");
-System.out.println("Hello, JavaScript.");
+// // For Java:
+// System.out.println("Hello, World.");
+// System.out.println("Hello, JavaScript.");
 
 
 // For C++:
 
-cout<<"Hello, World.\n";
-cout<<"Hello, JavaScript.";
+// cout<<"Hello, World.\n";
+// cout<<"Hello, JavaScript.";
 
 
 // Printing a Concatenated String
 
 console.log(`My num is ${10}`)
 
+// JavaScript Float Variable Reassignment
+//  let a = 10.45;
+    // a = 20.55;
+    // console.log(a)
+
+
+// Basic Variable Addition
+
+let a = 10;
+    let b = 20;
+    let c = a + b;
+    console.log(c)
+
+
+    
