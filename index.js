@@ -1,8 +1,8 @@
 // Printing Messages in Different Languages
 
 // For JavaScript:
-console.log("Hello, World.");
-console.log("Hello, JavaScript.")
+// console.log("Hello, World.");
+// console.log("Hello, JavaScript.")
 
 // // For Java:
 // System.out.println("Hello, World.");
@@ -17,7 +17,7 @@ console.log("Hello, JavaScript.")
 
 // Printing a Concatenated String
 
-console.log(`My num is ${10}`)
+// console.log(`My num is ${10}`)
 
 // JavaScript Float Variable Reassignment
 //  let a = 10.45;
@@ -27,10 +27,29 @@ console.log(`My num is ${10}`)
 
 // Basic Variable Addition
 
-let a = 10;
-    let b = 20;
-    let c = a + b;
-    console.log(c)
+// let a = 10;
+//     let b = 20;
+//     let c = a + b;
+//     console.log(c)
 
+// Quotient and Remainder Calculation
+// let a = 1042;
+//     let b = 7;
+//     let quo = Math.floor(a/b);
+//     let rem = a%b;
+// console.log(quo , rem)
 
-    
+// Multiplication Table Generator for a Given Number
+
+// var input = 8;
+// for (var i = 1; i <= 10; i++) {
+//     console.log(`${input} x ${i} = ${input * i}`);
+// }
+
+// Circle Area and Perimeter Calculation
+ let radius = 3.14
+ let p = 2 * 3 * radius;
+  let a = 3 * (radius*radius);
+  console.log(a)
+  console.log(p)
+
