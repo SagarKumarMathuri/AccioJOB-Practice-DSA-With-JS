@@ -47,9 +47,35 @@
 // }
 
 // Circle Area and Perimeter Calculation
- let radius = 3.14
- let p = 2 * 3 * radius;
-  let a = 3 * (radius*radius);
-  console.log(a)
-  console.log(p)
+//  let radius = 3.14
+//  let p = 2 * 3 * radius;
+//   let a = 3 * (radius*radius);
+//   console.log(a)
+//   console.log(p)
 
+
+// Basic Arithmetic Operations
+//  let a = 12 , b = 12;
+//  let sum = a+b;
+//   let diff = a-b;
+//   let prod = a*b;
+//   let quo = (Math.floor(a/b));
+//   let rem = a%b;
+
+//   console.log(sum);
+//   console.log(diff);
+//   console.log(prod);
+//   console.log(quo);
+//   console.log(rem);
+
+// Temperature Conversion
+// let tempInCelsius = 23
+// console.log((tempInCelsius* (9/5)) + 32)
+
+// Celsius to Fahrenheit 2
+// let C  = 23;
+// let celsius = parseFloat(C);
+//   let fahrenheit = (celsius * 1.8) + 32;
+//   console.log(fahrenheit.toFixed(6)); 
+
+// Age Condition Check
