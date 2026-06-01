@@ -79,3 +79,82 @@
 //   console.log(fahrenheit.toFixed(6)); 
 
 // Age Condition Check
+// let n= 12;
+//  let nut = parseInt(n);
+
+//   switch (nut) {
+//     case 28:
+//       console.log("i am young");
+//       break;
+//     default:
+//       console.log("i am not young");
+//   }
+
+// Number Importance Classification
+
+// let N = 23;
+//   if(N<30){
+//      console.log("less important")
+//   }else{
+//     console.log("more important")
+//   }
+//   Number Comparison
+// let n = 2;
+// if(n>1){
+//     console.log("You entered more")
+//   }else{
+//     console.log("You entered less")
+//   }
+
+// Divisibility Check
+// let n = 24;
+//  if(n%6==0){
+//     console.log("Divisible")
+//   }else{
+//     console.log("Not divisible")
+//   }
+
+// Number of Days
+// let month = 5;
+// const daysInMonth = [31,28,31,30,31,30,31,31,30,31,30,31]
+//   const monthIndex = month - 1;
+//   if(monthIndex >=0 && monthIndex<=11){
+//     console.log(daysInMonth[monthIndex]);
+//   }else{
+//     console.log('Invalid month')
+//   }
+  
+
+// 1. Print Numbers from 1 to N
+// let n = 15;
+// for(let i = 0; i < n; i++ ){
+//   console.log(i)
+// }
+
+// 2. Print Numbers from N to 1 without changing the loop condition of above question
+
+// let num = 13;
+// for(let i = 1; i <= num; i++){
+//   console.log(num - i+1);
+// }
+
+// 3. Print All Even Numbers from 1 to N
+
+// let n = 12;
+// for(let i = 1 ; i <= n; i++){
+//   if(i%2==0){
+//     console.log(i);
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
