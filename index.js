@@ -147,7 +147,67 @@
 //   }
 // }
 
+// 4. Sum of First N Natural Numbers
 
+// let n = 12;
+
+// let sum = 0;
+
+// for(let i = 1; i < n; i++){
+//   sum+=i
+// }
+// console.log(sum);
+
+
+// Optimized Solution
+
+// let sum = (n * (n + 1))/2
+// console.log(sum);
+
+
+// . Print Right-Angled Star Triangle
+
+// const row = 5;
+// for(let i = 1; i <= row; i++){
+//   let str = ''
+
+//   for(let j = 1; j<= i; j++){
+//     str += "*";
+//   }
+//   console.log(str);
+  
+// }
+
+// . Print Right-Angled Star Triangle
+ 
+// const row = 5;
+// for(let i = row; i >= 1; i--){
+//   str = "";
+//   for(let j = i; j >= 1; j--){
+//     str += "*"
+//   }
+//   console.log(str);
+// }
+
+
+// Print Pyramid Pattern
+
+const row = 5;
+
+for(let i=1; i < 2 * row-1; i+=2 ){
+  let str = ""
+  const currRow = (i + 1) / 2
+
+  for(let j = 1 ; j <= row + currRow -1 ; j++){
+    if(j <= row - currRow){
+      str += " "
+    }else {
+      str += "*"
+    }
+  }
+  console.log(str);
+  
+}
 
 
 
