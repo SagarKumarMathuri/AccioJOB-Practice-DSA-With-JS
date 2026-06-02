@@ -192,27 +192,57 @@
 
 // Print Pyramid Pattern
 
-const row = 5;
+// const row = 5;
 
-for(let i=1; i < 2 * row-1; i+=2 ){
-  let str = ""
-  const currRow = (i + 1) / 2
+// for(let i=1; i < 2 * row-1; i+=2 ){
+//   let str = ""
+//   const currRow = (i + 1) / 2
 
-  for(let j = 1 ; j <= row + currRow -1 ; j++){
-    if(j <= row - currRow){
-      str += " "
-    }else {
-      str += "*"
-    }
-  }
-  console.log(str);
+//   for(let j = 1 ; j <= row + currRow -1 ; j++){
+//     if(j <= row - currRow){
+//       str += " "
+//     }else {
+//       str += "*"
+//     }
+//   }
+//   console.log(str);
   
+// }
+
+// Leap Year 
+let year = 1900
+if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
+    console.log(1)
+  }else{
+    console.log(0)
 }
 
 
+//  Student Grade Classification
+// let n = 82
+// if(n > 90){
+//   console.log("excellent");
+// }else if((n > 80) && (n <= 90)){
+//   console.log("Good");
+// }
+// else if((n > 70) && (n <= 80)){
+//   console.log("fair");
+// }
+// else if((n > 60 && (n <= 70))){
+//   console.log("Meets Expectations");
+// }else if(n <= 60){
+//   console.log("Below Expectations");
+// }
 
-
-
+// Odd or Simple Integer Pair
+let a = 6
+if(a%2!==0){
+    console.log("Odd");
+    
+}else{
+    console.log("Even");
+    
+}
 
 
 
