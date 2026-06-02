@@ -235,15 +235,26 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 
 // Odd or Simple Integer Pair
-let a = 6
-if(a%2!==0){
-    console.log("Odd");
+// let a = 6
+// if(a%2!==0){
+//     console.log("Odd");
     
-}else{
-    console.log("Even");
-    
-}
+// }else{
+//     console.log("Even");  
+// }
 
+
+// Sum of Digits
+let n = 3445
+let sum = 0;
+while (n>0) {
+    sum += n % 10;
+    n = Math.floor(n/10)
+}
+console.log(sum);
+
+
+// Check Prime
 
 
 
