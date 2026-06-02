@@ -245,17 +245,27 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 
 // Sum of Digits
-let n = 3445
-let sum = 0;
-while (n>0) {
-    sum += n % 10;
-    n = Math.floor(n/10)
-}
-console.log(sum);
+// let n = 3445
+// let sum = 0;
+// while (n>0) {
+//     sum += n % 10;
+//     n = Math.floor(n/10)
+// }
+// console.log(sum);
 
 
 // Check Prime
+function isPrime(num){
+  if(num <= 1) {
+    return false;
+  }
+  for (let i = 2; i < Math.sqrt(num); i++) {
+    if (num % i === 0) {
+        return false
+    }
+  }
+  return true;
+}
+console.log(isPrime(7));
 
-
-
-
+// Reverse Integer Digits
