@@ -255,17 +255,28 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 
 // Check Prime
-function isPrime(num){
-  if(num <= 1) {
-    return false;
-  }
-  for (let i = 2; i < Math.sqrt(num); i++) {
-    if (num % i === 0) {
-        return false
-    }
-  }
-  return true;
-}
-console.log(isPrime(7));
+// function isPrime(num){
+//   if(num <= 1) {
+//     return false;
+//   }
+//   for (let i = 2; i < Math.sqrt(num); i++) {
+//     if (num % i === 0) {
+//         return false
+//     }
+//   }
+//   return true;
+// }
+// console.log(isPrime(7));
 
 // Reverse Integer Digits
+
+let reverse = 0;
+let num = 1234;
+
+while (num > 0) {
+  let digit = num % 10;
+  reverse = reverse * 10 + digit;
+  num = Math.floor(num / 10);
+}
+console.log(reverse);
+
