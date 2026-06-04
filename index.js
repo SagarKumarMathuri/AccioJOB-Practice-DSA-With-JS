@@ -270,13 +270,25 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // Reverse Integer Digits
 
-let reverse = 0;
-let num = 1234;
+// let reverse = 0;
+// let num = 1234;
 
-while (num > 0) {
-  let digit = num % 10;
-  reverse = reverse * 10 + digit;
-  num = Math.floor(num / 10);
+// while (num > 0) {
+//   let digit = num % 10;
+//   reverse = reverse * 10 + digit;
+//   num = Math.floor(num / 10);
+// }
+// console.log(reverse);
+
+// Greatest Common Divisor of Two Numbers
+
+function gcd(a,b){
+  while (b !== 0){
+    let temp = b;
+    b = a % b;
+    a = temp;
+  }
+  return Math.abs(a);
 }
-console.log(reverse);
+console.log(gcd(48,18));
 
