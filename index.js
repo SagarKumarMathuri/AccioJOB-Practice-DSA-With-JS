@@ -292,5 +292,16 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(gcd(48,18));
 
-// Calculate Power Without Built-in Method
+// // Calculate Power Without Built-in Method
 
+// function power(base, exponent) {
+//   let result = 1;
+//   for (let i = 0; i < exponent; i++){
+//     result *= base;
+//   }
+//   return result;
+// }
+// console.log(power(2,3)); 
+
+
+// N Stars
