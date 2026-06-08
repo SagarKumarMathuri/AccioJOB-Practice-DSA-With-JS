@@ -316,3 +316,23 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 
 // Sum of Natural Numbers
+// let n = 3;
+// let sum = 0;
+// for(let i = 1; i <= n; i++){
+//   sum += i;
+// }
+// console.log(sum);
+
+// Factorial with loop
+
+// let fact = 1;
+// let n = 5;
+
+// for(let i = 1; i <= n; i++){
+//   fact *= i;
+// }
+// console.log(fact);
+
+
+//Sum of Even Numbers
+
