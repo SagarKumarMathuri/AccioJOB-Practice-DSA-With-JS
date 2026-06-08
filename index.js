@@ -282,13 +282,15 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // Greatest Common Divisor of Two Numbers
 
-function gcd(a,b){
-  while (b !== 0){
-    let temp = b;
-    b = a % b;
-    a = temp;
-  }
-  return Math.abs(a);
-}
-console.log(gcd(48,18));
+// function gcd(a,b){
+//   while (b !== 0){
+//     let temp = b;
+//     b = a % b;
+//     a = temp;
+//   }
+//   return Math.abs(a);
+// }
+// console.log(gcd(48,18));
+
+// Calculate Power Without Built-in Method
 
