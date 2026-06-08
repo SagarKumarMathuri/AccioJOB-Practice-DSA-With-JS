@@ -336,3 +336,11 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 //Sum of Even Numbers
 
+let n = 12;
+let sum = 0 ;
+for(let i = 1; i <= n; i++){
+  if(i%2==0){
+    sum += i;
+  }
+}
+console.log(sum);
