@@ -442,17 +442,17 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 4. Add Properties to Objects
 
-const users = [
-    { name: "sagar"},
-    {name: "smith"}
-]
+// const users = [
+//     { name: "sagar"},
+//     {name: "smith"}
+// ]
 
-const result = users.map(user => ({
-    ... user,
-    active: true
-}))
+// const result = users.map(user => ({
+//     ... user,
+//     active: true
+// }))
 
-console.log(result);
+// console.log(result);
 
 
 
@@ -481,8 +481,31 @@ console.log(result);
 
 // Star Pyramid Creation
 
-const row = 5;
+// const n = 5;
 
-for(let i=1; i < 2 * row-1; i+=2){
-  
-}
+// for(let i=1; i <= n; i++){
+//   let space = " ".repeat(n-i)
+//   let star = ("* ".repeat(i)).trim()
+//   console.log(space + star);
+// }
+
+// Right Angle Triangle Stars
+
+// let n = 5;
+
+// for(let i =1; i<=n; i++){
+//     console.log("* ".repeat(i));
+// }
+
+// Descending Number Pattern
+
+// let n = 5;
+
+// for(let i=1; i<=n; i++){
+//     let row = "";
+//     for(let j=i; j>=1; j--){
+//         row += j;
+//     }
+//     console.log(row); 
+// }
+
