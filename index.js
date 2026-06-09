@@ -402,15 +402,57 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // Filter 
 
+// let a1 = [1,2,3,4,5,6];
+
+// let a2 = a1.filter((num) => num > 1);
+
+// console.log(a2);
+
+// reduce 
+
+// let a = [80 , 30, 23, 20];
+
+// let sub = a.reduce(geeks);
+
+// function geeks(tot, num){
+//     return tot - num;
+// }
+// console.log(sub);
 
 
+// 2. Transform Strings
 
 
+// const names = ["sagar", "rahul", "amit"];
 
+// const result = names.map(name => name.toUpperCase());
 
+// console.log(result);
 
+// 3. Extract Properties from Objects
 
+// const users = [
+//     { id: 1, name: "sagar"},
+//     { id: 2, name: "suraj"}
+// ];
 
+// const result = users.map(user => user.name);
+
+// console.log(result);
+
+// 4. Add Properties to Objects
+
+const users = [
+    { name: "sagar"},
+    {name: "smith"}
+]
+
+const result = users.map(user => ({
+    ... user,
+    active: true
+}))
+
+console.log(result);
 
 
 
