@@ -351,6 +351,9 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // let a = ["html", "css", "js", "react"];
 
+// a.splice(0,3)
+// console.log(a);
+
 // console.log(a.length);
 // let s = a.toString();
 // console.log(a.join('|'));
@@ -365,6 +368,23 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // let res = a.slice(1,4);
 // console.log(res);
 // console.log(a);
+
+// const a = [1,2,3,4,5,6];
+
+// let res = a.some((val) => val > 1);
+// console.log(res);
+
+// let a = [4,9,16, 25];
+
+// let sub = a.map(geeks);
+
+// function geeks() {
+//     return a.map(Math.sqrt);
+// }
+// console.log(sub);
+
+// Map
+
 
 
 
