@@ -385,8 +385,22 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // Map
 
+// const a = [1,4,9];
+
+// const b = a.map(x => Math.sqrt(x) );
+
+// console.log(b);
 
 
+// let a = [2,5,6,3,8,9];
+
+// let res = a.map((val, index)=>{
+//     return { key: index, value: val * val}
+// })
+
+// console.log(res);
+
+// Filter 
 
 
 
