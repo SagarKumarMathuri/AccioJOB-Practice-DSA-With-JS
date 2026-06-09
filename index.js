@@ -345,6 +345,31 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(sum);
 
+// JavaScript Array Methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Staircase
 
 // function staircase(n){
@@ -356,3 +381,10 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // staircase(5)
 
+// Star Pyramid Creation
+
+const row = 5;
+
+for(let i=1; i < 2 * row-1; i+=2){
+  
+}
