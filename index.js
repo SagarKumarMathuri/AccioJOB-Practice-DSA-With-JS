@@ -347,6 +347,9 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // JavaScript Array Methods
 
+// 1. JavaScript Array length 
+
+
 
 
 
