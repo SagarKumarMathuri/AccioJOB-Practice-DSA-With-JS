@@ -349,6 +349,25 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 1. JavaScript Array length 
 
+// let a = ["html", "css", "js", "react"];
+
+// console.log(a.length);
+// let s = a.toString();
+// console.log(a.join('|'));
+
+
+// console.log(a.splice(1,3));
+
+// let a = [20,30,40,50];
+// a.splice(1,3);
+// a.splice(1,2,3,4,5)
+
+// let res = a.slice(1,4);
+// console.log(res);
+// console.log(a);
+
+
+
 
 
 
