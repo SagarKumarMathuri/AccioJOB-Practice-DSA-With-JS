@@ -516,4 +516,22 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     console.log(char.repeat(i+1));
 // }
 
-// Diamond Pattern
+// Prime Numbers Range
+let num = 11
+function isPrime(num){
+    if (num < 2) return false;
+
+    for(let i =2 ; i*i<num; i++){
+        if(num % i === 0) return false;
+    }
+        
+    return true
+}
+for(let i=1; i<=num; i++){
+    if (isPrime(i)) {
+        console.log(i);
+        
+    }
+}
+
+
