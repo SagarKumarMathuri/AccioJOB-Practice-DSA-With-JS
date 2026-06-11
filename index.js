@@ -510,10 +510,10 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 
 // Alphabet Pattern Printing
-let n = 5;
-for(let i = 0; i < n; i++){
-    let char = String.fromCharCode(65 + i);
-    console.log(char.repeat(i+1));
-}
+// let n = 5;
+// for(let i = 0; i < n; i++){
+//     let char = String.fromCharCode(65 + i);
+//     console.log(char.repeat(i+1));
+// }
 
 // Diamond Pattern
