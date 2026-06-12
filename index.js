@@ -551,3 +551,16 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 
 // Second Last Digit Zero Checker
+// let n = 100
+// function slDigit(n){
+//     let sDigit = parseInt(n/10)%10;
+//     if(sDigit === 0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(slDigit(n));
+
+// 
