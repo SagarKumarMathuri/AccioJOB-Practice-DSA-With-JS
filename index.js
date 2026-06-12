@@ -575,13 +575,27 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // Method 2: Manual Conversion
 
-let binary = "1010";
+// let binary = "1010";
 
-let decimal = 0;
+// let decimal = 0;
 
-for(let i=0; i < binary.length; i++){
-    decimal = decimal * 2 + Number(binary[i]);
+// for(let i=0; i < binary.length; i++){
+//     decimal = decimal * 2 + Number(binary[i]);
+// }
+// console.log(decimal);
+
+// Digit Frequency Counter
+
+function freqDigit(n , d) {
+    let count = 0;
+
+    const digit = d.toString();
+
+    for(let char of n.toString()){
+        if (char === digit) {
+            count ++;
+        }
+    }
+    return count;
 }
-console.log(decimal);
-
-// 
+console.log(freqDigit(1212111, 1));
