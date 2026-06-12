@@ -517,21 +517,37 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 
 // Prime Numbers Range
-let num = 11
-function isPrime(num){
-    if (num < 2) return false;
+// let num = 11
+// function isPrime(num){
+//     if (num < 2) return false;
 
-    for(let i =2 ; i*i<num; i++){
-        if(num % i === 0) return false;
-    }
+//     for(let i =2 ; i*i<num; i++){
+//         if(num % i === 0) return false;
+//     }
         
-    return true
-}
-for(let i=1; i<=num; i++){
-    if (isPrime(i)) {
-        console.log(i);
+//     return true
+// }
+// for(let i=1; i<=num; i++){
+//     if (isPrime(i)) {
+//         console.log(i);
         
-    }
-}
+//     }
+// }
+
+// Print Continuous Character Pattern
 
 
+// let n = 5;
+
+// for(let i = 0; i < n; i++) {
+//     let line = "";
+    
+//     for(let j=0; j <= i; i++){
+//         let charCode = 65 + ((i + j) % 26);
+//         line += String.fromCharCode(charCode);
+//     }
+//     console.log(line);
+    
+// }
+
+// Second Last Digit Zero Checker
