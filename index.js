@@ -563,4 +563,25 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(slDigit(n));
 
+// Binary To Decimal
+
+// Method 1: Using parseInt() (Recommended)
+
+// let binary = "10101";
+
+// let decimal = parseInt(binary, 2)
+
+// console.log(decimal);
+
+// Method 2: Manual Conversion
+
+let binary = "1010";
+
+let decimal = 0;
+
+for(let i=0; i < binary.length; i++){
+    decimal = decimal * 2 + Number(binary[i]);
+}
+console.log(decimal);
+
 // 
