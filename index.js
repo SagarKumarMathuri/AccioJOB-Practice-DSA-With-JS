@@ -586,16 +586,34 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // Digit Frequency Counter
 
-function freqDigit(n , d) {
-    let count = 0;
+// function freqDigit(n , d) {
+//     let count = 0;
 
-    const digit = d.toString();
+//     const digit = d.toString();
 
-    for(let char of n.toString()){
-        if (char === digit) {
-            count ++;
-        }
-    }
-    return count;
-}
-console.log(freqDigit(1212111, 1));
+//     for(let char of n.toString()){
+//         if (char === digit) {
+//             count ++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(freqDigit(1212111, 1));
+
+// Calculate nPr
+
+// function factorial(num) {
+//     let fact = 1;
+//  for(let i = 2; i <= num; i++){
+//     fact *= i
+//  }
+//  return fact;
+// }
+// console.log(factorial(5));
+
+// function nPr(n , r){
+//     return factorial(n) / factorial(n - r)
+// }
+// console.log(nPr(5,2));
+
+// 
