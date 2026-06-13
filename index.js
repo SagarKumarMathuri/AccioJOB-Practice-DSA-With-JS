@@ -654,4 +654,20 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(countPairs([1,5,3,4,2]), 2);
 
-// 
+// Comparing Array Sums
+
+// function arrayProblem(arrA, arrB){
+//     const sumA = arrA.reduce((a,b)=> a+b , 0);
+//     const sumB = arrB.reduce((a,b)=> a+b , 0);
+
+// if (sumA > sumB) {
+//     return ("first array is larger")
+// }else if(sumA < sumB){
+//     return ("Second array is larger")
+// }else{
+//     return ("both are equal");
+// }
+// }
+// console.log(arrayProblem([1,1,4],[1,3,4]));
+
+// Minimum Distance Between Even Numbers
