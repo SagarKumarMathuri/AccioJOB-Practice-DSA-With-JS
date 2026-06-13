@@ -671,3 +671,22 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(arrayProblem([1,1,4],[1,3,4]));
 
 // Minimum Distance Between Even Numbers
+
+// function minDistanceEvanNumber(arr) {
+//     let lastEvanIndex = -1;
+//     let minDistance = Infinity;
+
+//     for(let i=0; i < arr.length; i++){
+//         if(arr[i] % 2 === 0){
+//             if (lastEvanIndex !== -1) {
+//                 minDistance = Math.min(minDistance, i - lastEvanIndex);
+//             }
+//             lastEvanIndex = i;
+//         }
+//     }
+//     return minDistance === Infinity ? -1 : minDistance;
+// }
+// console.log(minDistanceEvanNumber([1,4,7,8,3,6]));
+
+
+// Square Matrix Multiplication
