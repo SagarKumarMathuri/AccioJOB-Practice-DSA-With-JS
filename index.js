@@ -639,3 +639,19 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // pRatio[-4 ,3 ,-9, -5, 4 ,1];
 
 // Count Pairs with Difference K
+
+// function countPairs(arr, k){
+//     let set = new Set(arr);
+//     let count = 0;
+
+//     for(let num of arr) {
+//         if(set.has(num + k)){
+//             count++;
+//         }
+//     }
+//     return count;
+
+// }
+// console.log(countPairs([1,5,3,4,2]), 2);
+
+// 
