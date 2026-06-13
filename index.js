@@ -616,4 +616,26 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(nPr(5,2));
 
-// 
+// Plus Minus
+
+// function pRatio(arr){
+//     let countPosi = 0;
+//     let countNeg = 0;
+//     let countZero = 0;
+
+//     for(let num of arr){
+//         if (num > 0) {
+//             countPosi++;
+//         }else if(num < 0){
+//             countNeg++;
+//         }else {
+//             countZero++;
+//         }
+//     }
+//     console.log((positive / arr.length).toFixed(6));
+//     console.log((negative / arr.length).toFixed(6));
+//     console.log((zero / arr.length).toFixed(6));
+// }
+// pRatio[-4 ,3 ,-9, -5, 4 ,1];
+
+// Count Pairs with Difference K
