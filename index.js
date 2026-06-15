@@ -717,11 +717,11 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // ]
 // console.log(mulMat(A,B));
 
-// // Transpose of Matrix
+// Transpose of Matrix
 
 // function matrixTran(mat, n){
-//     for(let i = 1; i < n; i++){
-//         for(let j=1; j = i+1; j++ ){
+//     for(let i = 0; i < n; i++){
+//         for(let j=i+1; j <n; j++ ){
 //             let temp = mat[i][j];
 //             mat[i][j] = mat[j][i]
 //             mat[j][i] = temp;
@@ -738,3 +738,28 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 
 // Matrix 90 Degree Rotation
+
+// function rotateMatrix(matrix) {
+//     let n = matrix.length;
+
+//     for(let i = 0; i < n; i++){
+//         for(let j = i+1; j <n; j++){
+//             let temp = matrix[i][j];
+//             matrix[i][j] = matrix[j][i];
+//             matrix[j][i] = temp;
+//         }
+//     }
+//     for(let i = 0; i < n; i++){
+//         matrix[i].reverse();
+//     }
+//     return matrix;
+// }
+
+// let matrix = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+// console.log(rotateMatrix(matrix));
+
+// Fill Rows in Boolean Matrix
