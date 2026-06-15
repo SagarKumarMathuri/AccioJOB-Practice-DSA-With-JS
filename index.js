@@ -717,5 +717,24 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // ]
 // console.log(mulMat(A,B));
 
-// Transpose of Matrix
+// // Transpose of Matrix
 
+// function matrixTran(mat, n){
+//     for(let i = 1; i < n; i++){
+//         for(let j=1; j = i+1; j++ ){
+//             let temp = mat[i][j];
+//             mat[i][j] = mat[j][i]
+//             mat[j][i] = temp;
+//         }
+//     }
+//     return mat
+// }
+// let mat = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+// console.log(matrixTran(mat, 3));
+
+
+// Matrix 90 Degree Rotation
