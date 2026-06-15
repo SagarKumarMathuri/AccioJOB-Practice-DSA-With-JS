@@ -690,3 +690,32 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 
 // Square Matrix Multiplication
+
+// function mulMat(A , B){
+//     const n = A.length;
+
+//     const result = Array.from({ length : n}, () => Array(n).fill(0));
+
+//     for(let i=0; i < n; i++){
+//         for(let j= 0; j < n; j++){
+//             for(let k = 0; k < n; k++){
+//                 result[i][j] += A[i][j] * B[k][j];
+//             }
+//         }
+//     }
+//     return result;
+// }
+
+// const A = [
+//     [1,2],
+//     [3,4]
+// ];
+
+// const B = [
+//     [5,6],
+//     [7,8]
+// ]
+// console.log(mulMat(A,B));
+
+// Transpose of Matrix
+
