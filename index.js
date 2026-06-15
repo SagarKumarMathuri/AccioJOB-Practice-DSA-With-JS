@@ -763,3 +763,37 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(rotateMatrix(matrix));
 
 // Fill Rows in Boolean Matrix
+
+// function fillBooleanMatrix(mat) {
+//     const rows = mat.length;
+//     const cols = mat[0].length;
+
+//     for(let i = 0; i < rows; i++){
+//         let hasOne = false;
+
+//         for(let j=0; j < cols; j++){
+//             if (mat[i][j] === 1) {
+//                 hasOne = true;
+//                 break;
+//             }
+//         }
+//         if(hasOne) {
+//             for(let j = 0; j < cols; j++){
+//                 mat[i][j] = 1;
+//             }
+//         }
+//     }
+//     return mat;
+// }
+// const mat = [
+//     [1,0,0],
+//     [0,0,0],
+//     [0,1,0]
+// ]
+// console.log(fillBooleanMatrix(mat));
+
+
+// Boundary Traversal of matrix
+
+
+
