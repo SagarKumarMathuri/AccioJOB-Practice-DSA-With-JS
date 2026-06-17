@@ -457,22 +457,39 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 1. Find Largest Element
 
-function findlargest(arr){
-    let largest = arr[0];
+// function findlargest(arr){
+//     let largest = arr[0];
 
-    for(let i = 1; i < arr.length; i++){
-        if (arr[i] > largest) {
-            largest = arr[i]
-        }
-    }
-    return largest
-}
+//     for(let i = 1; i < arr.length; i++){
+//         if (arr[i] > largest) {
+//             largest = arr[i]
+//         }
+//     }
+//     return largest
+// }
 
-console.log(findlargest([12,34,5,2,45]));
+// console.log(findlargest([12,34,5,2,45]));
 
-// 
+// Find Second Largest Element
 
+// function secondLargest(arr){
+//     let largest = -Infinity;
+//     let second = -Infinity;
 
+//     for(let num of arr){
+//         if(num > largest){
+//             second = largest;
+//             largest = num;
+//         }else if(num > second && num !== largest){
+//             second = num;
+//         }
+//     }
+//     return second;
+// }
+
+// console.log(secondLargest([10,20,2,43,89]));
+
+// 3. Reverse Array
 
 
 
