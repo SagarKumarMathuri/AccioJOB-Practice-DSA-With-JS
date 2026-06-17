@@ -455,6 +455,44 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(result);
 
 
+// 1. Find Largest Element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -795,5 +833,13 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // Boundary Traversal of matrix
 
+let mat = [
+    [1,2,3,4],
+    [5,6,7,8],
+    [9,10,11,12],
+    [13,14,15,16]
+]
 
-
+for (let j = cols - 2; j >= 0; j--) {
+    process.stdout.write(mat[rows - 1][j] + " ");
+}
