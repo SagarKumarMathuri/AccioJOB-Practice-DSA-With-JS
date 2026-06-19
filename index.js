@@ -552,9 +552,36 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // Alternate elements of an array
 
+// function getAlternate(arr) {
+//     let res = [];
 
+//     for(let i= 0; i < arr.length; i +=2){
+//         res.push(arr[i]);
+//     }
+//     return res;
+// }
 
+// const arr = [10,20,30,40,50,60];
+// const res = getAlternate(arr);
+// console.log(res.join(" "));
+// console.log(getAlternate(arr));
 
+// Recursive Approach
+
+// function getAlternatesRec(arr, idx, res){
+//     if (idx < arr.length) {
+//         res.push(arr[idx]);
+//         getAlternatesRec(arr, idx + 2, res);
+//     }
+// }
+// function getAlternates(arr) {
+//     let res = [];
+//     getAlternatesRec(arr, 0, res);
+//     return res;
+// }
+
+// let arr = [10,20,30,40,50,60];
+// console.log(getAlternates(arr));
 
 
 
