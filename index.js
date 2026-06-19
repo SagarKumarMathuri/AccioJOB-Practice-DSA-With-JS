@@ -534,9 +534,23 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(leftRotate([1,2,3,4]));
 
 
+// 7. Remove Duplicates from Sorted Array
 
+// function removeDuplicate(arr){
+//     let res = 1;
 
+//     for(let i = 1; i < arr.length; i++){
+//         if (arr[i] !== arr[res - 1]) {
+//             arr[res] = arr[i];
+//             res++;
+//         }
+//     }
+//     return arr.slice(0, res);
+// }
 
+// console.log(removeDuplicate([1,1,2,2,2,3,4,4,4]));
+
+// Alternate elements of an array
 
 
 
@@ -901,4 +915,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 
 // Boundary Traversal of matrix
-
+// function boundaryTravaersal(m, n, matrix){
+//     for(let j = 0)
+// }
