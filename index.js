@@ -520,7 +520,18 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(moveZeros([2,3,0,50,0,4,0,2]));
 
-// 
+// 5. Left Rotate Array by One
+
+// function leftRotate(arr){
+//     let first = arr[0];
+
+//     for(let i = 1; i <arr.length; i++){
+//         arr[i - 1] = arr[i];
+//     }
+//     arr[arr.length -1] = first;
+//     return arr;
+// }
+// console.log(leftRotate([1,2,3,4]));
 
 
 
