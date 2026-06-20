@@ -594,10 +594,21 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(sum([1,2,4,6], 4));
 
 
-// 
+// 2. Find Maximum Element
 
+// function maxElement(arr, n){
+//     if (n === 1)  return arr[0];
 
+//     return Math.max(arr[n-1], maxElement(arr, n-1));
+// }
 
+// console.log(maxElement([2,4,3,5,6,7,8],7));
+
+// 3. Find Minimum Element
+
+function minElement(arr, n){
+    if(n === 1) return 
+}
 
 
 
