@@ -584,10 +584,17 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(getAlternates(arr));
 
 
+// Find the sum of all elements in an array using recursion.
+
+// function sum(arr, n) {
+//     if(n === 0) return 0;
+
+//     return arr[n-1] + sum(arr, n - 1);
+// }
+// console.log(sum([1,2,4,6], 4));
 
 
-
-
+// 
 
 
 
