@@ -686,15 +686,54 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // printArray([10,20,30,40],0)
 
+// Print all subsets of an array.
 
-function subset(arr, index, curr){
-    if(index === arr.length){
-        console.log(curr);
-        return
-    }
-    
-}
+// function subset(arr, index, curr){
+//     if(index === arr.length){
+//         console.log(curr);
+//         return
+//     }
+//    subset(arr, index+1, curr);
 
+//    subset(arr, index + 1, [...curr, arr[index]])
+// }
+
+// subset([1,2],0,[])
+
+
+// 1. Print a Matrix
+
+// function printMatrix(mat){
+//     for(let i = 0; i < mat.length; i++){
+//         for(let j = 0; j < mat[i].length; j++){
+//             process.stdout.write(mat[i][j] + " ");
+//         }
+//         console.log();
+        
+//     }
+// }
+// printMatrix([
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ])
+
+// 2. Sum of All Elements
+
+// function matrixSum(mat) {
+//     let sum = 0;
+
+//     for(let i = 0; i < mat.length; i++){
+//         for(let j = 0; j < mat[i].length; j++){
+//             sum += mat[i][j];
+//         }
+//     }
+//     return sum;
+// }
+// console.log(matrixSum([
+//     [1,2],
+//     [3,4]
+// ]));
 
 
 
