@@ -674,11 +674,26 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(binarySearch([1,2,3,4,5],0,4,4));
 
 
+// 12. Print Array Recursively
+
+// function printArray(arr, index){
+//     if(index === arr.length) return ;
+
+//     console.log(arr[index]);
+
+//     printArray(arr, index + 1);
+    
+// }
+// printArray([10,20,30,40],0)
 
 
-
-
-
+function subset(arr, index, curr){
+    if(index === arr.length){
+        console.log(curr);
+        return
+    }
+    
+}
 
 
 
