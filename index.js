@@ -629,7 +629,15 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 5. Check If Array Is Sorted
 
+// function isSorted(arr, n){
+//     if(n === 1) return true;
 
+//     return arr[n-2] <= arr[n-1] && isSorted(arr, n-1);
+
+// }
+// console.log(isSorted([1,2,3,4,5],5));
+
+// 6. Linear Search
 
 
 
