@@ -639,7 +639,16 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 6. Linear Search
 
+// function linearSearch(arr, index, target){
+//     if(index === arr.length) return -1;
 
+//     if(arr[index] === target) return index;
+
+//     return linearSearch(arr, index + 1, target);
+// }
+// console.log(linearSearch([10,20,30,40],0,30));
+
+// 
 
 
 
