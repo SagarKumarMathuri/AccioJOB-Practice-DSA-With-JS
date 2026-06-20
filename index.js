@@ -648,7 +648,16 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(linearSearch([10,20,30,40],0,30));
 
-// 
+// 8. Product of Array Elements
+
+// function product(arr, n){
+//     if(n === 0) return 1;
+
+//     return arr[n-1] * product(arr, n-1);
+// }
+// console.log(product([2,3,4],3));
+
+// 9. Binary Search (Recursive)
 
 
 
