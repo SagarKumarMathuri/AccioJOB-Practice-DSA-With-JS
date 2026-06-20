@@ -659,6 +659,74 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 9. Binary Search (Recursive)
 
+// function binarySearch(arr, low, high, target){
+//     if(low > high) return -1;
+
+//     let mid = Math.floor((low + high)/2);
+
+//     if(arr[mid] === target) return mid;
+
+//     if(target < arr[mid]){
+//         return binarySearch(arr, low, mid -1, target);
+//     }
+//     return binarySearch(arr, mid + 1, high, target)
+// }
+// console.log(binarySearch([1,2,3,4,5],0,4,4));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
