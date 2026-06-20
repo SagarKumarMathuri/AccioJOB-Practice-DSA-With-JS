@@ -606,9 +606,14 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 3. Find Minimum Element
 
-function minElement(arr, n){
-    if(n === 1) return 
-}
+// function minElement(arr, n){
+//     if(n === 1) return arr[0];
+
+//     return Math.min(arr[n-1], minElement(arr, n-1));
+
+// }
+// console.log(minElement([2,4,5,6],4));
+
 
 
 
