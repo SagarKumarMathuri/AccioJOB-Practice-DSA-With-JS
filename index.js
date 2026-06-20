@@ -615,10 +615,19 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(minElement([2,4,5,6],4));
 
 
+// 4. Reverse Array
 
+// function reverseArray(arr, start, end){
+//     if(start >= end) return arr;
 
+//     [arr[start], arr[end]] = [arr[end], arr[start]];
 
+//     return reverseArray(arr, start + 1, end -1);
+// }
 
+// console.log(reverseArray([1,2,4,5,6],0,4));
+
+// 5. Check If Array Is Sorted
 
 
 
