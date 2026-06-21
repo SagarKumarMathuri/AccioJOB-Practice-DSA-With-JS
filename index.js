@@ -755,11 +755,24 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 4. Row Sum
 
+// function rowSums(mat){
+//     for(let i = 0; i < mat.length; i++){
+//         let sum = 0;
 
+//         for(let j=0; j < mat[i].length; j++){
+//             sum += mat[i][j];
+//         }
+//         console.log(sum);
+        
+//     }
+// }
 
+// rowSums([
+//     [1,2,3],
+//     [4,5,6]
+// ])
 
-
-
+// 5. Column Sum
 
 
 
