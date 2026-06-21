@@ -774,9 +774,29 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // 5. Column Sum
 
+// function colSums(mat) {
 
+//      let rows = mat.length;
+//     let cols = mat[0].length;
 
+//     for(let j = 0; j < cols; j++){
+//         let sum = 0;
 
+//         for(let i = 0; i < rows; i++){
+//             sum += mat[i][j];
+//         }
+//         console.log(sum);
+        
+//     }
+
+// }
+
+// colSums([
+//     [1,2,3],
+//     [4,5,6]
+// ])
+
+// 
 
 
 
