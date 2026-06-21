@@ -1,5 +1,6 @@
 // Printing Messages in Different Languages
 
+ajjdjfdf;
 // For JavaScript:
 // console.log("Hello, World.");
 // console.log("Hello, JavaScript.")
@@ -8,12 +9,10 @@
 // System.out.println("Hello, World.");
 // System.out.println("Hello, JavaScript.");
 
-
 // For C++:
 
 // cout<<"Hello, World.\n";
 // cout<<"Hello, JavaScript.";
-
 
 // Printing a Concatenated String
 
@@ -21,9 +20,8 @@
 
 // JavaScript Float Variable Reassignment
 //  let a = 10.45;
-    // a = 20.55;
-    // console.log(a)
-
+// a = 20.55;
+// console.log(a)
 
 // Basic Variable Addition
 
@@ -53,7 +51,6 @@
 //   console.log(a)
 //   console.log(p)
 
-
 // Basic Arithmetic Operations
 //  let a = 12 , b = 12;
 //  let sum = a+b;
@@ -76,7 +73,7 @@
 // let C  = 23;
 // let celsius = parseFloat(C);
 //   let fahrenheit = (celsius * 1.8) + 32;
-//   console.log(fahrenheit.toFixed(6)); 
+//   console.log(fahrenheit.toFixed(6));
 
 // Age Condition Check
 // let n= 12;
@@ -123,7 +120,6 @@
 //   }else{
 //     console.log('Invalid month')
 //   }
-  
 
 // 1. Print Numbers from 1 to N
 // let n = 15;
@@ -158,12 +154,10 @@
 // }
 // console.log(sum);
 
-
 // Optimized Solution
 
 // let sum = (n * (n + 1))/2
 // console.log(sum);
-
 
 // . Print Right-Angled Star Triangle
 
@@ -175,11 +169,11 @@
 //     str += "*";
 //   }
 //   console.log(str);
-  
+
 // }
 
 // . Print Right-Angled Star Triangle
- 
+
 // const row = 5;
 // for(let i = row; i >= 1; i--){
 //   str = "";
@@ -188,7 +182,6 @@
 //   }
 //   console.log(str);
 // }
-
 
 // Print Pyramid Pattern
 
@@ -206,17 +199,16 @@
 //     }
 //   }
 //   console.log(str);
-  
+
 // }
 
-// Leap Year 
-let year = 1900
-if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
-    console.log(1)
-  }else{
-    console.log(0)
+// Leap Year
+let year = 1900;
+if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
+  console.log(1);
+} else {
+  console.log(0);
 }
-
 
 //  Student Grade Classification
 // let n = 82
@@ -238,11 +230,10 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // let a = 6
 // if(a%2!==0){
 //     console.log("Odd");
-    
-// }else{
-//     console.log("Even");  
-// }
 
+// }else{
+//     console.log("Even");
+// }
 
 // Sum of Digits
 // let n = 3445
@@ -252,7 +243,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     n = Math.floor(n/10)
 // }
 // console.log(sum);
-
 
 // Check Prime
 // function isPrime(num){
@@ -301,8 +291,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //   }
 //   return result;
 // }
-// console.log(power(2,3)); 
-
+// console.log(power(2,3));
 
 // N Stars
 
@@ -333,7 +322,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(fact);
 
-
 //Sum of Even Numbers
 
 // let n = 12;
@@ -347,7 +335,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // JavaScript Array Methods
 
-// 1. JavaScript Array length 
+// 1. JavaScript Array length
 
 // let a = ["html", "css", "js", "react"];
 
@@ -357,7 +345,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // console.log(a.length);
 // let s = a.toString();
 // console.log(a.join('|'));
-
 
 // console.log(a.splice(1,3));
 
@@ -391,7 +378,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // console.log(b);
 
-
 // let a = [2,5,6,3,8,9];
 
 // let res = a.map((val, index)=>{
@@ -400,7 +386,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // console.log(res);
 
-// Filter 
+// Filter
 
 // let a1 = [1,2,3,4,5,6];
 
@@ -408,7 +394,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // console.log(a2);
 
-// reduce 
+// reduce
 
 // let a = [80 , 30, 23, 20];
 
@@ -419,9 +405,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(sub);
 
-
 // 2. Transform Strings
-
 
 // const names = ["sagar", "rahul", "amit"];
 
@@ -453,7 +437,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }))
 
 // console.log(result);
-
 
 // 1. Find Largest Element
 
@@ -508,7 +491,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // Move Zeros to End
 
 // function moveZeros(arr) {
-//     let count = 0; 
+//     let count = 0;
 
 //     for(let i= 0; i < arr.length; i++){
 //         if (arr[i] !== 0) {
@@ -532,7 +515,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     return arr;
 // }
 // console.log(leftRotate([1,2,3,4]));
-
 
 // 7. Remove Duplicates from Sorted Array
 
@@ -583,7 +565,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // let arr = [10,20,30,40,50,60];
 // console.log(getAlternates(arr));
 
-
 // Find the sum of all elements in an array using recursion.
 
 // function sum(arr, n) {
@@ -592,7 +573,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     return arr[n-1] + sum(arr, n - 1);
 // }
 // console.log(sum([1,2,4,6], 4));
-
 
 // 2. Find Maximum Element
 
@@ -613,7 +593,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // }
 // console.log(minElement([2,4,5,6],4));
-
 
 // 4. Reverse Array
 
@@ -673,7 +652,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(binarySearch([1,2,3,4,5],0,4,4));
 
-
 // 12. Print Array Recursively
 
 // function printArray(arr, index){
@@ -682,7 +660,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     console.log(arr[index]);
 
 //     printArray(arr, index + 1);
-    
+
 // }
 // printArray([10,20,30,40],0)
 
@@ -700,7 +678,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 
 // subset([1,2],0,[])
 
-
 // 1. Print a Matrix
 
 // function printMatrix(mat){
@@ -709,7 +686,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //             process.stdout.write(mat[i][j] + " ");
 //         }
 //         console.log();
-        
+
 //     }
 // }
 // printMatrix([
@@ -763,7 +740,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //             sum += mat[i][j];
 //         }
 //         console.log(sum);
-        
+
 //     }
 // }
 
@@ -786,7 +763,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //             sum += mat[i][j];
 //         }
 //         console.log(sum);
-        
+
 //     }
 
 // }
@@ -796,54 +773,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     [4,5,6]
 // ])
 
-// 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
 
 // Staircase
 
@@ -883,7 +813,7 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     for(let j=i; j>=1; j--){
 //         row += j;
 //     }
-//     console.log(row); 
+//     console.log(row);
 // }
 
 // Alphabet Pattern Printing
@@ -901,30 +831,29 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     for(let i =2 ; i*i<num; i++){
 //         if(num % i === 0) return false;
 //     }
-        
+
 //     return true
 // }
 // for(let i=1; i<=num; i++){
 //     if (isPrime(i)) {
 //         console.log(i);
-        
+
 //     }
 // }
 
 // Print Continuous Character Pattern
 
-
 // let n = 5;
 
 // for(let i = 0; i < n; i++) {
 //     let line = "";
-    
+
 //     for(let j=0; j <= i; i++){
 //         let charCode = 65 + ((i + j) % 26);
 //         line += String.fromCharCode(charCode);
 //     }
 //     console.log(line);
-    
+
 // }
 
 // Second Last Digit Zero Checker
@@ -1065,7 +994,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 // }
 // console.log(minDistanceEvanNumber([1,4,7,8,3,6]));
 
-
 // Square Matrix Multiplication
 
 // function mulMat(A , B){
@@ -1112,7 +1040,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     [7,8,9]
 // ];
 // console.log(matrixTran(mat, 3));
-
 
 // Matrix 90 Degree Rotation
 
@@ -1168,7 +1095,6 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     [0,1,0]
 // ]
 // console.log(fillBooleanMatrix(mat));
-
 
 // Boundary Traversal of matrix
 // function boundaryTravaersal(m, n, matrix){
