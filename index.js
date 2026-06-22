@@ -796,7 +796,25 @@ if((year % 4===0) && (year % 100 != 0) || (year % 400 === 0)){
 //     [4,5,6]
 // ])
 
-// 
+// 6. Matrix Transpose
+
+// function transpose(mat){
+//     let rows = mat.length;
+//     let cols = mat[0].length;
+
+//     let result = Array.from({ length: cols}, () => Array(rows));
+
+//     for(let i=0; i < rows; i++){
+//         for(let j = 0; j < cols; j++){
+//             result[j][i] = mat[i][j];
+//         }
+//     }
+//     return result;
+// }
+// console.log(transpose([
+//     [1,2,3],
+//     [4,5,6]
+// ]));
 
 
 
