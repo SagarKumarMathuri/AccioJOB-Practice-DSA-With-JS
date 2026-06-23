@@ -775,7 +775,40 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Check Even or Odd
 
+// function isEven(n){
+//   let rem = n % 2;
+//   if(rem == 0){
+//     return true
+//   }else{
+//     return false;
+//   }
+// }
+// console.log(isEven(5));
 
+
+// Program for multiplication table
+
+// function printTable(n){
+//   for(let i = 1; i <= 10; i++){
+//     console.log(n + " * " + i + " = " + n * i);
+//   }
+// }
+// console.log(printTable(12));
+
+// Program for sum of n natural numbers
+
+// function findSu(n){
+//   let sum = 0;
+
+//   for(let i = 1; i <=n; i++){
+//     sum = sum + i;
+//   }
+//   return sum;
+// }
+
+// console.log(findSu(5));
+
+// 
 
 
 
