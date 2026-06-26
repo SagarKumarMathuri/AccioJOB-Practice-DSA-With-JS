@@ -824,9 +824,31 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 // }
 // console.log(findSum(5));
 
+// 1. Print Right-Angled Star Triangle
 
+// const row = 5;
+// for(let i = 1; i <= row; i++){
+//   let str = "";
+//    for(let j = 1; j <= i; j++){
+//     str = str + "* "
+//    }
+//    console.log(str);
+// }
 
+// 2. Print Inverted Right-Angled Triangle
 
+// const row = 5;
+
+// for(let i = row; i >=1; i--){
+//   let str = ''
+
+//   for(let j = i; j >= 1; j--){
+//     str = str + "* "
+//   }
+//   console.log(str);
+// }
+
+// 
 
 
 
