@@ -808,7 +808,22 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // console.log(findSu(5));
 
-// 
+// [Alternative Approach] Using Recursion -O(n) and O(n) Space
+
+// function findSum(n) {
+//   if(n == 1) return 1;
+
+//   return n + findSum(n - 1);
+
+// }
+
+// console.log(findSum(5));
+
+// function findSum(n){
+//   return n * (n + 1) / 2;
+// }
+// console.log(findSum(5));
+
 
 
 
@@ -1179,6 +1194,42 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 // console.log(fillBooleanMatrix(mat));
 
 // Boundary Traversal of matrix
-// function boundaryTravaersal(m, n, matrix){
-//     for(let j = 0)
+
+// function boundaryTraversal(mat) {
+//   let rows = mat.length;
+//   let cols = mat[0].length;
+
+//   // Top row
+//   for(let j = 0; j < cols; j++){
+//     process.stdout.write(mat[0][j] + " ")
+//   }
+//   // right column
+//   for (let i = 1; i < rows; i++){
+//     process.stdout.write(mat[i][cols - 1] + " ");
+//   }
+
+//   // bottom row
+
+//   if(rows > 1){
+//     for(let j = cols - 2; j >= 0; j--){
+//       process.stdout.write(mat[rows - 1][j] + " ")
+//     }
+//   }
+//   // left colomn
+
+//   if(cols > 1){
+//     for(let i = rows - 2; i >= 1; i--){
+//       process.stdout.write(mat[i][0] + " ");
+//     }
+//   }
 // }
+
+// const mat = [
+//   [1, 2, 3, 4],
+//     [5, 6, 7, 8],
+//     [9,10,11,12],
+//     [13,14,15,16]
+// ]
+
+// boundaryTraversal(mat);
+
