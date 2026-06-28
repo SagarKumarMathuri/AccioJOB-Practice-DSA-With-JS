@@ -906,26 +906,41 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // 6. Print Hollow Pyramid Pattern
 
-const row = 5;
+// const row = 5;
 
-for(let i = 1; i <= 2 * row - 1; i+=2){
-  let str = ''
-  const currentRow = (i + 1) /2
+// for(let i = 1; i <= 2 * row - 1; i+=2){
+//   let str = ''
+//   const currentRow = (i + 1) /2
 
-  for(let j = 1; j <= row + currentRow - 1; j++){
-    if(j <= row - currentRow || j > row - currentRow + 1 && j < row + currentRow - 1 && i !== 2*row -1){
-      str += ' '
-    } else {
-      str += '*'
-    }
-  }
-  console.log(str);
+//   for(let j = 1; j <= row + currentRow - 1; j++){
+//     if(j <= row - currentRow || j > row - currentRow + 1 && j < row + currentRow - 1 && i !== 2*row -1){
+//       str += ' '
+//     } else {
+//       str += '*'
+//     }
+//   }
+//   console.log(str);
   
-}
+// }
 
 
+// 7. Print Alternating Binary Triangle
 
+// const row = 5
 
+// for(let i = 1; i <= row; i++){
+//   let str = ''
+
+//   for(let j = 1; j <= i; j++){
+//     str = str + (i % 2 === 1 ? j % 2 : (j + 1) % 2)
+//   }
+//   console.log(str);
+  
+// }
+
+// Split Number into Digits
+
+let n = 12345;
 
 
 
