@@ -940,7 +940,18 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Split Number into Digits
 
-let n = 12345;
+// let n = 12345;
+// let arr = [];
+
+// while(n > 0){
+//   const lastDigit = Math.floor(n % 10);
+//   arr.push(lastDigit);
+//   n = Math.floor(n/10);
+// }
+// arr.reverse()
+// console.log(arr);
+
+// Remove the Decimal Point Mathematically
 
 
 
