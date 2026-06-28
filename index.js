@@ -886,9 +886,25 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
   
 // }
 
+// 5. Print Hollow Square Pattern
+
+// const row = 6;
+
+// for(let i = 1; i <=row; i++){
+//   let str = ''
+
+//   for(let j = 1; j <= row; j++){
+//     if(i === 1 || i === row || j === 1 || j === row){
+//       str = str + "*"
+//     } else {
+//       str = str + ' '
+//     }
+//   }
+//   console.log(str);
+  
+// }
+
 // 
-
-
 
 
 
