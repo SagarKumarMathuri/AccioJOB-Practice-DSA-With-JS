@@ -953,26 +953,111 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Remove the Decimal Point Mathematically
 
+// Input: N = 12.34
+// Output: 1234
+// ✨ Do not use string operations.
+
+// let n = 12.34;
+// function removeDecimalPoint(n) {
+//   while(n%1 !== 0){
+//     n = Number((n*10).toFixed(10));
+//   }
+//   return Math.floor(n);
+// }
+
+// console.log(removeDecimalPoint(n));
+
+// Separate Whole and Fractional Parts of a Number
+//  Input: N = 5.75
+// Output: Whole = 5, Fraction = 0.75
+// ✨ Use mathematical logic to separate the integer and fractional portions without using built-in functions. Don't use Math.trunc() method.
+
+// const n = 5.75;
+
+// function seperateByDecimail(n){
+//   let whole = Math.floor(n)
+//   let fraction = Number((n - whole).toFixed(10));
+//   return { whole, fraction};
+// }
+
+// console.log(seperateByDecimail(n));
+
+// Generate a Decimal Number from Whole and Fractional Digits
+
+// Input: Whole = [1, 2], Fraction = [3, 4]
+// Output: 12.34
+// ✨ Form the number mathematically by combining the digits from both arrays using powers of 10.
+
+// function generateWholeNumber(arr){
+//   const n = arr.length;
+//   let whole = 0;
+//   for(let i = 0; i < n; i++){
+//     whole = 10 * whole + arr[i];
+//   }
+//   return whole;
+// }
+// function generatefraction(arr){
+//   const n = arr.length;
+//   let whole = 0;
+//   let divide = 1;
+//   for(let i = 0; i < n; i++){
+//     whole = 10 * whole + arr[i];
+//     divide *= 10;
+//   }
+//   return  whole / divide;
+// }
+// console.log("Whole :" + generateWholeNumber([1,2]));
+// console.log("Fraction :" + generatefraction([1,2]));
 
 
+// 1. Split Number into Digits
 
+// function splitIntoDigit(num){
+//   const digits = []
+//   while (num > 0) {
+//     digits.unshift(num % 10)
+//     num = Math.floor(num / 10)
+//   }
+//   return digits
+// }
 
+// console.log(splitIntoDigit(1234));
 
+// 2. Reverse a Number
 
+// function reverseDigit(num){
+//   const digits = []
+//   while(num > 0){
+//     digits.unshift(num % 10)
+//     num = Math.floor(num / 10)
+//   }
+//   let reveredNumber = 0
+//   for(let i = 0; i < digits.length; i++){
+//     reveredNumber += digits[i] * 10 ** i
+//   }
+//   return reveredNumber
+// }
+// console.log(reverseDigit(1234));
 
+// 3. Remove the Decimal Point Mathematically
 
+// function removeDecimal(num){
+//   while(num !== Math.floor(num)){
+//     num = num * 10
+//   }
+//   return num
+// }
+// console.log(removeDecimal(123.5));
 
+// 4. Separate Whole and Fractional Parts of a Number
 
+// function separateParts(num){
+//   const fractionPart = Number((num %1).toFixed(10))
+//   const wholePart = Number((num - fractionPart).toFixed(10))
+//   return {wholePart, fractionPart}
+// }
 
-
-
-
-
-
-
-
-
-
+// console.log(separateParts(12.45));
 
 
 
