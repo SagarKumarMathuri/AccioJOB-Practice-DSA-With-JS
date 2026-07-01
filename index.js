@@ -1060,8 +1060,25 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 // console.log(separateParts(12.45));
 
 
+// Day-4b_digits-and-numbers
+// 5. Generate a Decimal Number from Whole and Fractional Digits
 
 
+// function generateNumberFromWholeAndFractionalDigit(wholeDigits, fractionalDigits){
+//   let wholePart = 0;
+//   let fractionPart = 0;
+
+//   for(let i = 0; i < wholeDigits.length; i++){
+//     wholePart += wholeDigits[i] * 10 ** (wholeDigits.length - i -1)
+//   }
+//   for(let i = 0; i < fractionalDigits.length; i++){
+//     fractionPart += fractionalDigits[i] * 10 ** -(i + 1)
+//   }
+
+//   return wholePart + Number(fractionPart.toFixed(10))
+// }
+
+// console.log(generateNumberFromWholeAndFractionalDigit([1,2],[3,4]));
 
 
 
