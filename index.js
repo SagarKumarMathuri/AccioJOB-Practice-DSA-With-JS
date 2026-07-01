@@ -1081,6 +1081,40 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 // console.log(generateNumberFromWholeAndFractionalDigit([1,2],[3,4]));
 
 
+// 6. Check if a Number is a Palindrome
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
