@@ -1092,19 +1092,61 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Alternate elements of an array
 
+// function getAlternates(arr){
+//   let res = [];
+
+//   for(let i = 0; i < arr.length; i =+ 2){
+//     res.push(arr[i]);
+//   }
+//   return res;
+// }
+
+// const arr = [10,15,20,25,30,35];
+// console.log(res.join(" "));
 
 
 
+// Iterate JavaScript Program to print alternate elements
+// of the array
+
+// function getAlternates(arr) {
+//     let res = [];
+    
+//     // Iterate over all alternate elements
+//     for (let i = 0; i < arr.length; i += 2) {
+//         res.push(arr[i]);
+//     }
+//     return res;
+// }
 
 
+// // Driver Code
+// const arr = [10, 20, 30, 40, 50];
+// const res = getAlternates(arr);
+// console.log(res.join(" "));
 
 
+// Recursive Approach
+
+// function getAlternatesRec(arr, idx, res){
+//   if(idx < arr.length) {
+//     res.push(arr[idx]);
+//     getAlternatesRec(arr, idx + 2, res);
+//   }
+// }
+
+// function getAlternates(arr){
+//   let res = [];
+//   getAlternatesRec(arr, 0, res);
+//   return res;
+// }
+
+// let arr = [10, 20, 30, 40, 50];
+// let res = getAlternates(arr);
+// console.log(res.join(" "));
 
 
-
-
-
-
+// Leaders in an array
 
 
 
