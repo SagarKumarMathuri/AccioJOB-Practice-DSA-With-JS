@@ -1082,7 +1082,15 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 
 // 6. Check if a Number is a Palindrome
+// function isPalindrome(num){
+//   const originalNumber = num;
+//   const digits = []
+//   while(num > 0){
+//     digits.unshift(num)
+//   }
+// }
 
+// Alternate elements of an array
 
 
 
