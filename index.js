@@ -1149,9 +1149,26 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 // Leaders in an array
 
 
+// function leader(arr) {
+//   const res = [];
+//   const n = arr.length;
 
+//   for(let i = 0; i < n; i++){
+//     let j;
+//     for(j = i + 1; j < n; j++){
+//       if(arr[i] < arr[j])
+//         break
+//     }
+//     if(j === n)
+//       res.push(arr[i]);
+//   }
+//   return res;
+// }
 
+// const arr = [16, 17, 4, 3, 5, 2];
+// const result = leader(arr);
 
+// console.log(result.join(" "));
 
 
 
@@ -1535,3 +1552,4 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // boundaryTraversal(mat);
 
+// Alt Matrix Sum
