@@ -1554,26 +1554,52 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Alt Matrix Sum
 
-function altMatrixSum(matrix, n){
-  let blackSum = 0;
-  let whiteSum = 0;
+// function altMatrixSum(matrix, n){
+//   let blackSum = 0;
+//   let whiteSum = 0;
 
-  for(let i = 0; i < n; i++){
-    for(let j = 0; j < n; j++){
-      if((i + j) % 2 === 0) {
-        blackSum += matrix[i][j];
-      }else{
-        whiteSum += matrix[i][j]
+//   for(let i = 0; i < n; i++){
+//     for(let j = 0; j < n; j++){
+//       if((i + j) % 2 === 0) {
+//         blackSum += matrix[i][j];
+//       }else{
+//         whiteSum += matrix[i][j]
+//       }
+//     }
+//   }
+//   console.log(blackSum);
+//   console.log(whiteSum);
+// }
+
+// let matrix = [
+//   [1,2,3],
+//   [4,5,6],
+//   [7,8,9]
+// ]
+// altMatrixSum(matrix,3)
+
+
+function alternatetraversal(mat, rows, cols) {
+  let result = [];
+
+  for(let i = 0; i < rows; i++){
+    if(i % 2 === 0) {
+      for(let j = 0; j < cols; j++){
+        result.push(mat[i][j]);
+      }
+    }
+    else{
+      for(let j = cols - 1; j >= 0; j--){
+        result.push(mat[i][j]);
       }
     }
   }
-  console.log(blackSum);
-  console.log(whiteSum);
+  console.log(result.join(" "));
+  
 }
 
-let matrix = [
-  [1,2,3],
-  [4,5,6],
-  [7,8,9]
+let mat = [
+  [1,2],
+  [3,4]
 ]
-altMatrixSum(matrix,3)
+alternatetraversal(mat,2,2)
