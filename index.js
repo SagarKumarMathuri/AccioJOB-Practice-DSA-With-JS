@@ -1606,15 +1606,55 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Spiral Matrix Traversal problem
 
-function spiralMatrix2(matrix){
-      let rows = matrix.length;
-      let cols = matrix[0].length;
-    
-      let top = 0;
-      let bottom = rows - 1;
-          let left = 0;
+function spiralMatrix2(matrix) {
+    let rows = matrix.length;
+    let cols = matrix[0].length;
+
+    let top = 0;
+    let bottom = rows - 1;
+    let left = 0;
     let right = cols - 1;
 
-        let result = [];
+    let result = [];
 
+    while (left <= right && top <= bottom) {
+
+        // Top -> Bottom (left column)
+        for (let i = top; i <= bottom; i++) {
+            result.push(matrix[i][left]);
+        }
+        left++;
+
+        // Left -> Right (bottom row)
+        for (let j = left; j <= right; j++) {
+            result.push(matrix[bottom][j]);
+        }
+        bottom--;
+
+        // Bottom -> Top (right column)
+        if (left <= right) {
+            for (let i = bottom; i >= top; i--) {
+                result.push(matrix[i][right]);
+            }
+            right--;
+        }
+
+        // Right -> Left (top row)
+        if (top <= bottom) {
+            for (let j = right; j >= left; j--) {
+                result.push(matrix[top][j]);
+            }
+            top++;
+        }
+    }
+
+    return result;
 }
+
+let matrix = [
+    [1, 4, 7],
+    [2, 5, 8],
+    [3, 6, 9]
+];
+
+console.log(spiralMatrix2(matrix).join(" "));
