@@ -1579,27 +1579,42 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 // altMatrixSum(matrix,3)
 
 
-function alternatetraversal(mat, rows, cols) {
-  let result = [];
+// function alternatetraversal(mat, rows, cols) {
+//   let result = [];
 
-  for(let i = 0; i < rows; i++){
-    if(i % 2 === 0) {
-      for(let j = 0; j < cols; j++){
-        result.push(mat[i][j]);
-      }
-    }
-    else{
-      for(let j = cols - 1; j >= 0; j--){
-        result.push(mat[i][j]);
-      }
-    }
-  }
-  console.log(result.join(" "));
+//   for(let i = 0; i < rows; i++){
+//     if(i % 2 === 0) {
+//       for(let j = 0; j < cols; j++){
+//         result.push(mat[i][j]);
+//       }
+//     }
+//     else{
+//       for(let j = cols - 1; j >= 0; j--){
+//         result.push(mat[i][j]);
+//       }
+//     }
+//   }
+//   console.log(result.join(" "));
   
-}
+// }
 
-let mat = [
-  [1,2],
-  [3,4]
-]
-alternatetraversal(mat,2,2)
+// let mat = [
+//   [1,2],
+//   [3,4]
+// ]
+// alternatetraversal(mat,2,2)
+
+// Spiral Matrix Traversal problem
+
+function spiralMatrix2(matrix){
+      let rows = matrix.length;
+      let cols = matrix[0].length;
+    
+      let top = 0;
+      let bottom = rows - 1;
+          let left = 0;
+    let right = cols - 1;
+
+        let result = [];
+
+}
