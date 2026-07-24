@@ -1206,38 +1206,59 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 
 
-function isSubset(a,b){
-    a.sort((x,y) => x - y);
-    b.sort((x,y) => x - y);
+// function isSubset(a,b){
+//     a.sort((x,y) => x - y);
+//     b.sort((x,y) => x - y);
 
-    let i = 0, j = 0;
-    let m = a.length, n = b.length;
+//     let i = 0, j = 0;
+//     let m = a.length, n = b.length;
 
-    while(i < m && j < n) {
-        if(a[i] < b[j]){
-            i++;
-        }
-        else if(a[i] == b[j]){
-            i++;
-            j++;
-        }
-        else{
-            return false;
-        }
-    }
-    return (j == n);
-}
+//     while(i < m && j < n) {
+//         if(a[i] < b[j]){
+//             i++;
+//         }
+//         else if(a[i] == b[j]){
+//             i++;
+//             j++;
+//         }
+//         else{
+//             return false;
+//         }
+//     }
+//     return (j == n);
+// }
 
-let a = [11, 1, 13, 21, 3, 7];
-let b = [11, 3, 7, 1];
+// let a = [11, 1, 13, 21, 3, 7];
+// let b = [11, 3, 7, 1];
 
-if (isSubset(a, b)) console.log('true');
-else console.log('false');
-
-
+// if (isSubset(a, b)) console.log('true');
+// else console.log('false');
 
 
 
+// [Expected Approach] Using Hashing
+
+// function isSubset(a,b){
+
+//     const hashSet = new Set(a);
+
+//     for(const num of b){
+//         if(!hashSet.has(num)){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+
+// const a = [11, 1, 13, 21, 3, 7];
+// const b = [11, 3, 7, 1];
+
+// if (isSubset(a, b)) {
+//     console.log("true");
+// } else {
+//     console.log("false");
+// }
 
 
 
