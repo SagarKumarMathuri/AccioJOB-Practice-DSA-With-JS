@@ -1173,6 +1173,36 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Check if an array is subset of another array
 
+function isSubset(a,b){
+    let m = a.length, n = b.length;
+
+    for(let i = 0; i < n; i++){
+        let found = false;
+
+        for(let j = 0; j < m; j++){
+            if(b[i] === a[j]){
+                found = true;
+                a[j] = -1;
+                break;
+            }
+        }
+        if(!found)
+            return false;
+    }
+    return true;
+}
+
+const a = [ 11, 1, 13, 21, 3, 7 ];
+const b = [ 11, 3, 7, 1 ];
+
+if (isSubset(a, b)) {
+    console.log("true");
+}
+else {
+    console.log("false");
+}
+
+// [Better Approach] Using Sorting and Two Pointer - O(m log m + n log n) Time and O(1) space
 
 
 
