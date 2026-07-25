@@ -1261,6 +1261,132 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 // }
 
 
+// Check for Disjoint Arrays or Sets
+
+// Given two arrays a[] and b[], check if they are disjoint, i.e., there is no element common between both the arrays.
+
+// Examples:
+
+// Input: a[] = [12, 34, 11, 9, 3], b[] = [2, 1, 3, 5] 
+// Output: False
+// Explanation: 3 is common in both the arrays.
+
+// Input: a[] = [12, 34, 11, 9, 3], b[] = [7, 2, 1, 5] 
+// Output: True 
+// Explanation: There is no common element in both the arrays.
+
+
+// [Naive Approach] Using Two Nested Loops
+
+// function areDisjoint(a,b){
+//     for(let i = 0; i < a.length; i++){
+//         for(let j= 0; j < b.length; j++){
+//             if(a[i] === b[j]){
+//                 return false;
+//             }
+//         }
+//     }
+//     return true;
+// }
+
+// const a = [12, 34, 11, 9, 3];
+// const b = [7, 2, 1, 5];
+
+// if (areDisjoint(a, b))
+//     console.log("True");
+// else
+//     console.log("False");
+
+
+// [Better Approach] Using Sorting and Two Pointer
+
+// function areDisjoint(a, b){
+//     a.sort((x,y) => x-y);
+//     b.sort((x,y) => x-y);
+
+//     let i = 0; j = 0;
+
+//     while(i < a.length && j < b.length){
+//         if(a[i] === b[j])
+//             return false;
+
+//         if(a[i] < b[j])
+//             i++;
+//         else
+//             j++
+//     }
+//     return true;
+// }
+
+// const a = [12, 34, 11, 9, 3];
+// const b = [7, 2, 1, 5];
+
+// if (areDisjoint(a, b))
+//     console.log("True");
+// else
+//     console.log("False");
+
+
+// [Expected Approach] Using Hashing
+
+// function areDisjoint(a,b){
+//     const st = new Set();
+
+//     for(let ele of a)
+//         st.add(ele);
+
+//     for(let ele of b){
+//         if(st.has(ele))
+//             return false;
+//     }
+//     return true;
+// }
+// const a = [12, 34, 11, 9, 3];
+// const b = [7, 2, 1, 5];
+
+// if (areDisjoint(a, b))
+//     console.log("True");
+// else
+//     console.log("False");
+
+
+// Check if two arrays are equal or not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
