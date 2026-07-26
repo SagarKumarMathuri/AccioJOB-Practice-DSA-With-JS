@@ -1405,14 +1405,44 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 // console.log(res.join(" "));
 
 
-// 
+// Max Distance Between Two Occurrences
+
+// Naive Approach Exploring all pairs
+
+// function maxDistance(arr){
+//     let res = 0;
+//     for(let i = 0; i < arr.length - 1; i++){
+//         for(let j = i + 1; j < arr.length; j++){
+//             if(arr[i] === arr[j]){
+//                 res = Math.max(res, j - i);
+//             }
+//         }
+//     }
+//     return res;
+//     }
+
+// const arr = [1, 2, 4, 1, 3, 4, 2, 5, 6, 5]
+
+// console.log(maxDistance(arr));
 
 
+// Expected Approach] Using Hash Map or Dictionary
 
+function maxDistance(arr) {
+    const mp = {};
+    let res = 0;
 
-
-
-
+    for(let i = 0; i < arr.length; i++){
+        if(!(arr[i] in mp)){
+            mp[arr[i]] = i;
+        }else {
+            res = Math.max(res, i - mp[arr[i]]);
+        }
+    }
+    return res;
+}
+const arr = [1, 1, 2, 2, 2, 1];
+console.log(maxDistance(arr));
 
 
 
