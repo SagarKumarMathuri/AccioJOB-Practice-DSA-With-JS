@@ -1352,7 +1352,29 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Check if two arrays are equal or not
 
+// function checkEqual(a,b){
+//     const n = a.length, m = b.length;
 
+//     if(n !== m)
+//         return false;
+
+//     const mp = {};
+//     for(let num of a){
+//         mp[num] = (mp[num] || 0) + 1;
+//     }
+
+//     for(let num of b){
+//         if(!(num in mp) || mp[num] === 0)
+//             return false;
+//         mp[num]--;
+//     }
+//     return true;
+// }
+
+// const a = [1,2,4,5];
+// const b = [2,1,5,4];
+
+// console.log(checkEqual(a,b) ? "true" : "false");
 
 
 
