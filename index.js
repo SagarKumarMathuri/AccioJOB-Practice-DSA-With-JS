@@ -1376,10 +1376,36 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // console.log(checkEqual(a,b) ? "true" : "false");
 
+// Fizz Buzz
+
+// function fizzBuzz(n){
+//     const res = [];
+
+//     const mp = {3: "Fizz", 5: "Buzz"};
+//     const divisors = [3,5];
+
+//     for(let i = 1; i <= n; i++){
+//         let s = "";
+
+//         for(let d of divisors){
+//             if(i % d === 0){
+//                 s += mp[d];
+//             }
+//         }
+
+//         if(s === "") {
+//             s += i;
+//         }
+//         res.push(s);
+//     }
+//     return res;
+// }
+// const n = 10;
+// const res = fizzBuzz(n);
+// console.log(res.join(" "));
 
 
-
-
+// 
 
 
 
