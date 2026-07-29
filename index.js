@@ -1888,55 +1888,77 @@ console.log(maxDistance(arr));
 
 // Spiral Matrix Traversal problem
 
-function spiralMatrix2(matrix) {
-    let rows = matrix.length;
-    let cols = matrix[0].length;
+// function spiralMatrix2(matrix) {
+//     let rows = matrix.length;
+//     let cols = matrix[0].length;
 
-    let top = 0;
-    let bottom = rows - 1;
-    let left = 0;
-    let right = cols - 1;
+//     let top = 0;
+//     let bottom = rows - 1;
+//     let left = 0;
+//     let right = cols - 1;
 
-    let result = [];
+//     let result = [];
 
-    while (left <= right && top <= bottom) {
+//     while (left <= right && top <= bottom) {
 
-        // Top -> Bottom (left column)
-        for (let i = top; i <= bottom; i++) {
-            result.push(matrix[i][left]);
-        }
-        left++;
+//         // Top -> Bottom (left column)
+//         for (let i = top; i <= bottom; i++) {
+//             result.push(matrix[i][left]);
+//         }
+//         left++;
 
-        // Left -> Right (bottom row)
-        for (let j = left; j <= right; j++) {
-            result.push(matrix[bottom][j]);
-        }
-        bottom--;
+//         // Left -> Right (bottom row)
+//         for (let j = left; j <= right; j++) {
+//             result.push(matrix[bottom][j]);
+//         }
+//         bottom--;
 
-        // Bottom -> Top (right column)
-        if (left <= right) {
-            for (let i = bottom; i >= top; i--) {
-                result.push(matrix[i][right]);
-            }
-            right--;
-        }
+//         // Bottom -> Top (right column)
+//         if (left <= right) {
+//             for (let i = bottom; i >= top; i--) {
+//                 result.push(matrix[i][right]);
+//             }
+//             right--;
+//         }
 
-        // Right -> Left (top row)
-        if (top <= bottom) {
-            for (let j = right; j >= left; j--) {
-                result.push(matrix[top][j]);
-            }
-            top++;
-        }
-    }
+//         // Right -> Left (top row)
+//         if (top <= bottom) {
+//             for (let j = right; j >= left; j--) {
+//                 result.push(matrix[top][j]);
+//             }
+//             top++;
+//         }
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
-let matrix = [
-    [1, 4, 7],
-    [2, 5, 8],
-    [3, 6, 9]
-];
+// let matrix = [
+//     [1, 4, 7],
+//     [2, 5, 8],
+//     [3, 6, 9]
+// ];
 
-console.log(spiralMatrix2(matrix).join(" "));
+// console.log(spiralMatrix2(matrix).join(" "));
+
+// Print Matrix Column Wise
+
+// function printMatrixColomnWise(matrix){
+//     let rows = matrix.length;
+//     let cols = matrix[0].length;
+
+//     for(let j = 0; j < cols; j++){
+//         for(let i = 0; i < rows; i++){
+//             console.log(matrix[i][j]);
+            
+//         }
+//     }
+// }
+// let matrix = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+
+// printMatrixColomnWise(matrix)
+
