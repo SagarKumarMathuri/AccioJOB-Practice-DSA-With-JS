@@ -1962,3 +1962,4 @@ console.log(maxDistance(arr));
 
 // printMatrixColomnWise(matrix)
 
+// Spirally traversing a matrix
