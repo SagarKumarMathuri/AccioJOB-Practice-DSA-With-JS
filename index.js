@@ -1963,3 +1963,47 @@ console.log(maxDistance(arr));
 // printMatrixColomnWise(matrix)
 
 // Spirally traversing a matrix
+
+function spiralTraversal(matrix){
+    let rows = matrix.length;
+    let cols = matrix[0].length;
+
+    let top = 0;
+    let bottom = rows - 1;
+    let left = 0;
+    let right = cols -1;
+
+    let result = [];
+
+    while ( top <= bottom && left <= right){
+         for(let j= top; j <= right; j++){
+            result.push(matrix[top][j]);
+         }
+         top++;
+         for(let i = top; i <= bottom; i++){
+            result.push(matrix[i][right]);
+         }
+         right--;
+
+         if (top <= bottom) {
+            for(let j = right; j >= left; j--){
+                result.push(matrix[bottom][j]);
+            }
+            bottom--;
+         }
+         if(left <= right){
+            for(let i = bottom; i >= top; i--){
+                result.push(matrix[i][left]);
+            }
+            left++;
+         }
+    }
+    return result;
+}
+let matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+
+console.log(spiralTraversal(matrix));
