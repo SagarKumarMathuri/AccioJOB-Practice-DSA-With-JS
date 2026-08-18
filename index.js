@@ -1964,46 +1964,69 @@ console.log(maxDistance(arr));
 
 // Spirally traversing a matrix
 
-function spiralTraversal(matrix){
-    let rows = matrix.length;
-    let cols = matrix[0].length;
+// function spiralTraversal(matrix){
+//     let rows = matrix.length;
+//     let cols = matrix[0].length;
 
-    let top = 0;
-    let bottom = rows - 1;
-    let left = 0;
-    let right = cols -1;
+//     let top = 0;
+//     let bottom = rows - 1;
+//     let left = 0;
+//     let right = cols -1;
 
-    let result = [];
+//     let result = [];
 
-    while ( top <= bottom && left <= right){
-         for(let j= top; j <= right; j++){
-            result.push(matrix[top][j]);
-         }
-         top++;
-         for(let i = top; i <= bottom; i++){
-            result.push(matrix[i][right]);
-         }
-         right--;
+//     while ( top <= bottom && left <= right){
+//          for(let j= top; j <= right; j++){
+//             result.push(matrix[top][j]);
+//          }
+//          top++;
+//          for(let i = top; i <= bottom; i++){
+//             result.push(matrix[i][right]);
+//          }
+//          right--;
 
-         if (top <= bottom) {
-            for(let j = right; j >= left; j--){
-                result.push(matrix[bottom][j]);
-            }
-            bottom--;
-         }
-         if(left <= right){
-            for(let i = bottom; i >= top; i--){
-                result.push(matrix[i][left]);
-            }
-            left++;
-         }
+//          if (top <= bottom) {
+//             for(let j = right; j >= left; j--){
+//                 result.push(matrix[bottom][j]);
+//             }
+//             bottom--;
+//          }
+//          if(left <= right){
+//             for(let i = bottom; i >= top; i--){
+//                 result.push(matrix[i][left]);
+//             }
+//             left++;
+//          }
+//     }
+//     return result;
+// }
+// let matrix = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+
+// console.log(spiralTraversal(matrix));
+
+// Diagonal Difference!
+
+function diagonalDiff(matrix){
+    let n = matrix.length;
+
+    let primary = 0;
+    let secondary = 0;
+
+    for(let i = 0; i < n; i++){
+        primary += matrix[i][i];
+
+        secondary += matrix[i][n-1-i];
     }
-    return result;
+    return Math.abs(primary - secondary);
 }
 let matrix = [
     [1,2,3],
     [4,5,6],
     [7,8,9]
 ];
+console.log(diagonalDiff(matrix));
 
-console.log(spiralTraversal(matrix));
