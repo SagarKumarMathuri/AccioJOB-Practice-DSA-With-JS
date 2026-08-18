@@ -2010,23 +2010,39 @@ console.log(maxDistance(arr));
 
 // Diagonal Difference!
 
-function diagonalDiff(matrix){
-    let n = matrix.length;
+// function diagonalDiff(matrix){
+//     let n = matrix.length;
 
-    let primary = 0;
-    let secondary = 0;
+//     let primary = 0;
+//     let secondary = 0;
 
-    for(let i = 0; i < n; i++){
-        primary += matrix[i][i];
+//     for(let i = 0; i < n; i++){
+//         primary += matrix[i][i];
 
-        secondary += matrix[i][n-1-i];
-    }
-    return Math.abs(primary - secondary);
-}
-let matrix = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-];
-console.log(diagonalDiff(matrix));
+//         secondary += matrix[i][n-1-i];
+//     }
+//     return Math.abs(primary - secondary);
+// }
+// let matrix = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+// console.log(diagonalDiff(matrix));
 
+// Print 2D Array Elements
+
+// function print2DArray(matrix){
+//     for(let i = 0; i < matrix.length; i++){
+//         for(let j = 0; j < matrix[i].length; j++){
+//             console.log(matrix[i][j]);
+            
+//         }
+//     }
+// }
+// let matrix = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+//  ]
+//  print2DArray(matrix);
