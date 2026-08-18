@@ -2046,3 +2046,37 @@ console.log(maxDistance(arr));
 //     [7,8,9]
 //  ]
 //  print2DArray(matrix);
+
+
+// Sum of upper and lower triangles
+
+// function sumTriagles(matrix) {
+//     let n = matrix.length;
+
+//     let upperSum = 0; 
+//     let lowerSum = 0;
+
+//     for(let i = 0; i < n; i++){
+//         for(let j = 0; j < n ; j++){
+//             // upper Triangle
+//             if(i <= j){
+//                 upperSum += matrix[i][j];
+//             }
+
+//             // lower triangle
+//             if(i >= j){
+//                 lowerSum += matrix[i][j]
+//             }
+//         }
+//     }
+//     console.log("Upper triangle Sum:", upperSum);
+//     console.log("Lower Triangle Sum:", lowerSum);
+    
+    
+// }
+// let matrix = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9],
+// ]
+// sumTriagles(matrix)
