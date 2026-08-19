@@ -2107,18 +2107,53 @@ console.log(maxDistance(arr));
 // String
 // Length In Bytes
 
-function byteSize(str){
-    return new TextEncoder().encode(str).length
-}
+// function byteSize(str){
+//     return new TextEncoder().encode(str).length
+// }
 
-console.log(byteSize("안녕하세요"));
+// console.log(byteSize("안녕하세요"));
 
-// Shortcut Function
+// // Shortcut Function
 
-function shortcut(str1, str2){
-    if(str1.length === 0 || str2.length === 0){
-        return "";
-    }
-    return str1[0] + str2[0]
-}
-console.log(shortcut("Computer","Engineer"));
+// function shortcut(str1, str2){
+//     if(str1.length === 0 || str2.length === 0){
+//         return "";
+//     }
+//     return str1[0] + str2[0]
+// }
+// console.log(shortcut("Computer","Engineer"));
+
+
+// Count words in a given string
+// function countwords(str){
+//     if(str.trim()=== ""){
+//         return 0;
+//     }
+//     return str.trim().split(/\s+/).length;
+// }
+// console.log(countwords("I am an Honest person"));
+
+// Toggle Characters
+// function toggleChacters(str){
+//     let result = "";
+
+//     for(let i=0; i < str.length; i++){
+//         let ch = str[i];
+
+//         if(ch >= 'A' && ch <= 'Z'){
+//             result += ch.toLowerCase();
+//         }
+//         else if(ch >= 'a' && ch <= 'z'){
+//             result += ch.toUpperCase();
+//         }
+//         else {
+//             result += ch;
+//         }
+//     }
+//     return result;
+// }
+
+// console.log(toggleChacters("HeLLo123"));
+
+// Camel Case
+
