@@ -2083,23 +2083,42 @@ console.log(maxDistance(arr));
 
 // Validating Toeplitz Matrix
 
-function isToeplitz(matrix){
-    let rows = matrix.length;
-    let cols = matrix[0].length;
+// function isToeplitz(matrix){
+//     let rows = matrix.length;
+//     let cols = matrix[0].length;
 
-    for(let i = 1; i < rows; i++){
-        for(let j = 1; j < cols; j++){
-            if(matrix[i][j] !== matrix[i-1][j - 1]){
-                return false;
-            }
-        }
-    }
-    return true;
+//     for(let i = 1; i < rows; i++){
+//         for(let j = 1; j < cols; j++){
+//             if(matrix[i][j] !== matrix[i-1][j - 1]){
+//                 return false;
+//             }
+//         }
+//     }
+//     return true;
+// }
+// let matrix = [
+//     [1,2,3,4],
+//     [5,1,2,3],
+//     [6,5,1,2],
+//     [7,6,5,1]
+// ]
+// console.log(isToeplitz(matrix));
+
+// String
+// Length In Bytes
+
+function byteSize(str){
+    return new TextEncoder().encode(str).length
 }
-let matrix = [
-    [1,2,3,4],
-    [5,1,2,3],
-    [6,5,1,2],
-    [7,6,5,1]
-]
-console.log(isToeplitz(matrix));
+
+console.log(byteSize("안녕하세요"));
+
+// Shortcut Function
+
+function shortcut(str1, str2){
+    if(str1.length === 0 || str2.length === 0){
+        return "";
+    }
+    return str1[0] + str2[0]
+}
+console.log(shortcut("Computer","Engineer"));
