@@ -2080,3 +2080,26 @@ console.log(maxDistance(arr));
 //     [7,8,9],
 // ]
 // sumTriagles(matrix)
+
+// Validating Toeplitz Matrix
+
+function isToeplitz(matrix){
+    let rows = matrix.length;
+    let cols = matrix[0].length;
+
+    for(let i = 1; i < rows; i++){
+        for(let j = 1; j < cols; j++){
+            if(matrix[i][j] !== matrix[i-1][j - 1]){
+                return false;
+            }
+        }
+    }
+    return true;
+}
+let matrix = [
+    [1,2,3,4],
+    [5,1,2,3],
+    [6,5,1,2],
+    [7,6,5,1]
+]
+console.log(isToeplitz(matrix));
