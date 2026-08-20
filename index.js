@@ -2157,3 +2157,62 @@ console.log(maxDistance(arr));
 
 // Camel Case
 
+// function camelcase(str){
+//     let words = str.trim().split(/\s+/);
+
+//     let result = words[0].toLowerCase();
+
+//     for(let i=1; i < words.length; i++){
+//         result += words[i][0].toUpperCase() + words[i].slice(1).toLowerCase();
+//     }
+//     return result;
+// }
+// console.log(camelcase("hello word"));
+
+// Inverse Camel Case
+
+// function inverseCamelcase(S){
+//     let word = "";
+
+//     for(let i = 0; i < S.length; i++){
+//         if(S[i] >= 'A' && S[i] <= 'Z' && word.length > 0){
+//             console.log(word);
+//             word = "";
+//         }
+//         word += S[i];
+//     }
+//     if(word.length > 0){
+//         console.log(word);
+        
+//     }
+//     return word;
+// }
+// console.log(inverseCamelcase(IAmAJavaProgrammer)
+// );
+
+
+// Good Strings
+
+// function goodString(S, A){
+//     let set = new Set(S);
+//     let count = 0;
+
+//     for(let str of A){
+//         let isGood = true;
+
+//         for(let ch of str){
+//             if(!set.has(ch)){
+//                 isGood = false;
+//                 break;
+//             }
+//         }
+//         if(isGood){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// let S = "abc";
+
+// let A = ["ab","abc","sad","abbcc"];
+// console.log(goodString(S,A));
