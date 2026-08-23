@@ -2220,14 +2220,25 @@ console.log(maxDistance(arr));
 
 // Shuffle String
 
-function shuffleString(n, s, indices){
-    let result = new Array(n)
+// function shuffleString(n, s, indices){
+//     let result = new Array(n);
 
-    for(let i = 0; i < n; i++){
-        result[indices[i]] = s[i];
-    }
-    return result.join("");
+//     for(let i = 0; i < n; i++){
+//         result[indices[i]] = s[i];
+//     }
+
+//     return result.join("");
+// }
+// console.log(shuffleString(8,"acciojob",[4,5,6,7,0,2,1,3]));
+
+
+// Reverse String Word Wise
+
+function reverseWords(S) {
+    let words = S.trim().split(/\s+/);
+
+    words.reverse();
+
+    return words.join(" ");
 }
-console.log(shuffleString(8,"acciojob",[4,5,6,7,0,2,1,3]));
-
-
+console.log(reverseWords("how are you"));
