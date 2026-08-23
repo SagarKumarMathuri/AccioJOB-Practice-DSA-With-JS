@@ -2216,3 +2216,18 @@ console.log(maxDistance(arr));
 
 // let A = ["ab","abc","sad","abbcc"];
 // console.log(goodString(S,A));
+
+
+// Shuffle String
+
+function shuffleString(n, s, indices){
+    let result = new Array(n)
+
+    for(let i = 0; i < n; i++){
+        result[indices[i]] = s[i];
+    }
+    return result.join("");
+}
+console.log(shuffleString(8,"acciojob",[4,5,6,7,0,2,1,3]));
+
+
