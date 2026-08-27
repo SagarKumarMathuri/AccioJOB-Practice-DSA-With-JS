@@ -2243,20 +2243,37 @@
 
 // Palindrome String
 
-function isPalindrome(str){
-  str = str.replace(/[^a-zA-Z]/g, "").toLowerCase();
+// function isPalindrome(str){
+//   str = str.replace(/[^a-zA-Z]/g, "").toLowerCase();
 
-  let left = 0;
-  let right = str.length - 1;
+//   let left = 0;
+//   let right = str.length - 1;
 
-  while(left < right){
-    if(str[left] !== str[right]){
-      return 0;
-    }
-    left++;
-    right--;
-  }
-  return 1;
-}
-console.log(isPalindrome("race a car"));
-console.log(isPalindrome("a man, a plan, a canal Panama"));
+//   while(left < right){
+//     if(str[left] !== str[right]){
+//       return 0;
+//     }
+//     left++;
+//     right--;
+//   }
+//   return 1;
+// }
+// console.log(isPalindrome("race a car"));
+// console.log(isPalindrome("a man, a plan, a canal Panama"));
+
+// All substrings of a string
+
+// function printSubstrings(str){
+//   for(let i = 0; i < str.length; i++){
+//     let substring = "";
+
+//     for(let j = i; j < str.length; j++){
+//       substring += str[j];
+//       console.log(substring);
+      
+//     }
+//   }
+// }
+// console.log(printSubstrings("abc"));
+
+// 
