@@ -2276,4 +2276,37 @@
 // }
 // console.log(printSubstrings("abc"));
 
-// 
+// Distinct Palindromic SubStrings
+
+function distinctPalindromeSubstrings(s){
+  let set = new Set();
+
+  for(let i = 0; i < s.length; i++){
+    for(let j = i; j < s.length; j++){
+
+      let left = i;
+      let right = j;
+      let isPalindrome = true;
+
+      while(left < right){
+        if(s[left] !== s[right]){
+          isPalindrome = false;
+          break;
+        }
+        left++;
+        right--;
+      }
+      if(isPalindrome){
+        set.add(s.substring(i, j + 1));
+      }
+    }
+  }
+
+  let result = Array.from(set);
+  result.sort();
+
+  for(let str of result){
+    console.log(str);
+  }
+}
+console.log(distinctPalindromeSubstrings("abccbc"));
