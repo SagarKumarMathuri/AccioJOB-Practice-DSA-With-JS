@@ -203,12 +203,12 @@
 // }
 
 // Leap Year
-let year = 1900;
-if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
-  console.log(1);
-} else {
-  console.log(0);
-}
+// let year = 1900;
+// if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
+//   console.log(1);
+// } else {
+//   console.log(0);
+// }
 
 //  Student Grade Classification
 // let n = 82
@@ -1428,23 +1428,21 @@ if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
 
 // Expected Approach] Using Hash Map or Dictionary
 
-function maxDistance(arr) {
-    const mp = {};
-    let res = 0;
+// function maxDistance(arr) {
+//     const mp = {};
+//     let res = 0;
 
-    for(let i = 0; i < arr.length; i++){
-        if(!(arr[i] in mp)){
-            mp[arr[i]] = i;
-        }else {
-            res = Math.max(res, i - mp[arr[i]]);
-        }
-    }
-    return res;
-}
-const arr = [1, 1, 2, 2, 2, 1];
-console.log(maxDistance(arr));
-
-
+//     for(let i = 0; i < arr.length; i++){
+//         if(!(arr[i] in mp)){
+//             mp[arr[i]] = i;
+//         }else {
+//             res = Math.max(res, i - mp[arr[i]]);
+//         }
+//     }
+//     return res;
+// }
+// const arr = [1, 1, 2, 2, 2, 1];
+// console.log(maxDistance(arr));
 
 
 
@@ -2234,11 +2232,31 @@ console.log(maxDistance(arr));
 
 // Reverse String Word Wise
 
-function reverseWords(S) {
-    let words = S.trim().split(/\s+/);
+// function reverseWords(S) {
+//     let words = S.trim().split(/\s+/);
 
-    words.reverse();
+//     words.reverse();
 
-    return words.join(" ");
+//     return words.join(" ");
+// }
+// console.log(reverseWords("how are you"));
+
+// Palindrome String
+
+function isPalindrome(str){
+  str = str.replace(/[^a-zA-Z]/g, "").toLowerCase();
+
+  let left = 0;
+  let right = str.length - 1;
+
+  while(left < right){
+    if(str[left] !== str[right]){
+      return 0;
+    }
+    left++;
+    right--;
+  }
+  return 1;
 }
-console.log(reverseWords("how are you"));
+console.log(isPalindrome("race a car"));
+console.log(isPalindrome("a man, a plan, a canal Panama"));
