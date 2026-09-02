@@ -2450,3 +2450,46 @@
 // printReverse(n)
 
 // Decrease Print Increase Print
+// function decrePrintIncrePrint(n){
+//   if(n === 0){
+//     return;
+//   }
+//       // Decrease print
+
+//   console.log(n);
+//       // Recursive call
+
+//   decrePrintIncrePrint(n-1)
+//       // Increase print
+
+//   console.log(n);
+  
+  
+// }
+// let n = 5;
+// decrePrintIncrePrint(n)
+
+
+// Factorial Using Recursion
+
+// function factorial(n){
+//  if(n === 0 || n === 1){
+//   return 1;
+//  }
+//  return n * factorial(n -1);
+// }
+// let n = 5;
+// console.log(factorial(n));
+
+// Sum of natural numbers
+
+// function sumNatural(n){
+//   if(n === 0){
+//     return 0;
+//   }
+//   return n + sumNatural(n -1);
+// }
+// let n = 5;
+// console.log(sumNatural(n));
+
+// Recursive Multiplication
