@@ -2362,18 +2362,35 @@
 
 // Insertion Sort
 
-function insertionSort(arr){
-  for(let i = 1; i < arr.length; i++){
-    let key = arr[i];
-    let j = i - 1;
+// function insertionSort(arr){
+//   for(let i = 1; i < arr.length; i++){
+//     let key = arr[i];
+//     let j = i - 1;
 
-    while(j >= 0 && arr[j] > key){
-      arr[j+1] = arr[j];
-      j--;
-    }
-    arr[j+1] = key;
-  }
-  return arr;
-}
-let arr = [5,3,2,6,8,1];
-console.log(insertionSort(arr));
+//     while(j >= 0 && arr[j] > key){
+//       arr[j+1] = arr[j];
+//       j--;
+//     }
+//     arr[j+1] = key;
+//   }
+//   return arr;
+// }
+// let arr = [5,3,2,6,8,1];
+// console.log(insertionSort(arr));
+
+// Bubble Sort (descending order)
+
+// function bubbleSortDescending(arr){
+//   for(let i = 0; i < arr.length - 1; i++){
+//     for(let j = 0; j < arr.length-1-i; j++){
+//       if(arr[j] < arr[j + 1]){
+//         let temp = arr[j];
+//         arr[j] = arr[j+1];
+//         arr[j+1] = temp;
+//       }
+//     }
+//   }
+//   return arr;
+// }
+// let arr = [5,2,8,1,9,3];
+// console.log(bubbleSortDescending(arr));
