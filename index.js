@@ -2493,3 +2493,148 @@
 // console.log(sumNatural(n));
 
 // Recursive Multiplication
+// function multiply(a,b){
+//   if(b === 0){
+//     return 0;
+//   }
+//   return a + multiply(a, b-1);
+// }
+// let a = 4;
+// let b = 3;
+
+// console.log(multiply(a,b));
+// 
+
+// Optimized power calculation
+
+// function power(x,n){
+//   if(n === 0){
+//     return 1;
+//   }
+//   let half = power(x, Math.floor(n/2));
+
+//   if(n % 2 === 0){
+//     return half * half;
+//   }else {
+//     return x * half * half
+//   }
+// }
+
+// console.log(power(2,10));
+
+// Product of natural numbers
+
+// function productNatural(n){
+//   if(n === 0){
+//     return 1;
+//   }
+//   return n * productNatural(n -1);
+// }
+// let n = 5;
+
+// console.log(productNatural(n));
+
+// Recursive Exponentiation by Squaring
+
+// function power(x,n){
+//   if(n === 0){
+//     return 1;
+//   }
+//   let half = power(x, Math.floor(n / 2));
+
+//   if(n % 2 === 0){
+//     return half * half;
+//   }
+//   return x * half * half;
+// }
+// console.log(power(2,10));
+
+// function printRange(a,b){
+//   if(a > b){
+//     return;
+//   }
+//   console.log(a);
+  
+//   printRange(a+1, b);
+// }
+// let a = 3;
+// let b = 7;
+
+// printRange(a,b)
+
+// Print Array Recursively
+
+// function printArray(arr, index){
+//   if(index === arr.length){
+//     return;
+//   }
+//   console.log(arr[index]);
+
+//   printArray(arr, index + 1);
+  
+// }
+// let arr = [10,23,30,40,50]
+// printArray(arr, 0)
+
+// Print Reverse Array Recursively
+
+// function printReverse(arr, index){
+//   if(index < 0){
+//     return;
+//   }
+//  console.log(arr[index]);
+
+//  printReverse(arr, index-1)
+ 
+// }
+// let arr = [10,20,30,40,50];
+
+// printReverse(arr,arr.length-1)
+
+// Smallest Number in an Array using Recursion
+
+// function findSmallest(arr, index){
+//   if(index === arr.length-1){
+//     return arr[index];
+//   }
+//   let smallest = findSmallest(arr, index + 1);
+
+//   return Math.min(arr[index], smallest)
+// }
+
+// let arr = [4,5,7,2,6,1]
+// console.log(findSmallest(arr,0));
+
+
+// Check whether Array is a Palindrome using Recursion
+
+// function isPalindrome(arr, left, right){
+//   if(left >= right){
+//     return true;
+//   }
+//   if(arr[left] !== arr[right]){
+//     return false;
+//   }
+//   return isPalindrome(arr, left + 1, right - 1);
+// }
+// let arr = [1,2,3,2,1]
+// console.log(isPalindrome(arr, 0, arr.length-1));
+
+// First Occurence Index
+
+// function firstOccurrence(arr, index, target){
+//   if(index === arr.length){
+//     return -1;
+//   }
+//   if(arr[index] === target){
+//     return index;
+//   }
+//   return firstOccurrence(arr, index + 1, target);
+// }
+
+// let arr = [10,20,30,40,50];
+// let target = 20;
+
+// console.log(firstOccurrence(arr, 0, target));
+
+// Last Occurence Index
