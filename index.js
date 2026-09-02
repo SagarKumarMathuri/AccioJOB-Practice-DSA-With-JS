@@ -2396,19 +2396,34 @@
 // console.log(bubbleSortDescending(arr));
 
 // Iterative Insertion Sort
-function insertionSort(arr){
-  for(let i = 1; i < arr.length; i++){
-    let key = arr[i];
-    let j = i - 1;
+// function insertionSort(arr){
+//   for(let i = 1; i < arr.length; i++){
+//     let key = arr[i];
+//     let j = i - 1;
 
-    while(j >= 0 && arr[j] > key){
-      arr[j + 1] = arr[j];
-      j--;
-    }
-    arr[j + 1] = key;
-  }
-  return arr
-}
+//     while(j >= 0 && arr[j] > key){
+//       arr[j + 1] = arr[j];
+//       j--;
+//     }
+//     arr[j + 1] = key;
+//   }
+//   return arr
+// }
 
-let arr = [5,2,8,1,9,3]
-console.log(insertionSort(arr));
+// let arr = [5,2,8,1,9,3]
+// console.log(insertionSort(arr));
+
+// Print ACCIOJOB
+
+// function printAccio(n){
+//    if(n === 0){
+//     return ;
+//    }
+//    console.log("ACCIO");
+//    printAccio(n-1)
+   
+// }
+// let n = 5
+// printAccio(n)
+
+// Recursively Print Numbers
