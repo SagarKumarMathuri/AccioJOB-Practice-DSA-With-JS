@@ -2427,3 +2427,26 @@
 // printAccio(n)
 
 // Recursively Print Numbers
+
+// function printNumber(n){
+//   if(n === 0){
+//     return;
+//   }
+//   printNumber(n-1)
+//   console.log(n);
+  
+// }
+// let n =5
+// printNumber(n);
+
+// function printReverse(n){
+//   if(n === 0){
+//     return;
+//   }
+//   console.log(n);
+//   printReverse(n-1)
+// }
+// let n = 5;
+// printReverse(n)
+
+// Decrease Print Increase Print
