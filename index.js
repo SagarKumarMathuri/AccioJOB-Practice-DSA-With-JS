@@ -2638,3 +2638,56 @@
 // console.log(firstOccurrence(arr, 0, target));
 
 // Last Occurence Index
+
+// function lastOccurrance(arr, index, target){
+//   if(index === arr.length){
+//     return -1;
+//   }
+//   let result = lastOccurrance(arr, index + 1, target)
+
+//   if(result !== -1){
+//     return result;
+//   }
+//   if(arr[index] === target){
+//     return index;
+//   }
+//   return -1;
+// }
+
+// let arr = [10,20,30,40,50,60]
+// let target = 60;
+// console.log(lastOccurrance(arr, 0, target));
+
+
+// Find Indices
+
+
+// function findIndices(arr, index, target, result){
+//   if(index === arr.length){
+//     return;
+//   }
+//   if(arr[index] === target){
+//     result.push(index);
+//   }
+//   findIndices(arr, index + 1, target, result);
+// }
+
+// let arr = [10,20,30,10,50,10];
+
+// let target = 10;
+// let result = []
+// findIndices(arr, 0, target, result);
+
+// console.log(result);
+
+// Equal Heights
+
+// function equalHeights(h1,h2,v1,v2){
+//   if(v1 >= v2){
+//     return false;
+//   }
+//   return (h1-h2) % (v2-v1) === 0;
+// }
+// console.log(equalHeights(4,3,4,3));
+// console.log(equalHeights(1,4,5,6));
+
