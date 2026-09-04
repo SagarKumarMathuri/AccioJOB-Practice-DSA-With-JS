@@ -2742,3 +2742,61 @@
 // console.log(minDate(["2020/01/03", "2024/03/12"]));
 
 // Second Highest Element
+
+// function secondHigesht(arr){
+//   let highest = -Infinity;
+//   let second = -Infinity;
+
+//   for(let i = 0; i < arr.length; i++){
+//     if(arr[i] > highest){
+//       second = highest;
+//       highest = arr[i];
+//     }else if(arr[i] > second && arr[i] !== highest){
+//       second = arr[i];
+//     }
+//   }
+//   return second;
+// }
+// console.log(secondHigesht([3,5,6,2,7]));
+
+
+// Min Cost Ropes
+
+// function mincost(arr){
+//   let ropes = [...arr];
+
+//   let cost = 0;
+
+//   while(ropes.length > 1){
+//     ropes.sort((a,b) => a-b);
+
+//     let first = ropes.shift();
+//     let second = ropes.shift();
+
+//     let sum = first + second;
+//     cost += sum;
+
+//     ropes.push(sum);
+//   }
+//   return cost;
+// }
+// console.log(mincost([4,3,2,6]));
+
+
+// Palindrome Number Checker
+
+// function isPalindrome(n){
+//   let original = n;
+//   let reverse = 0;
+
+//   while(n > 0){
+//     let digit = n % 10;
+//     reverse = reverse * 10 + digit;
+//     n = Math.floor(n / 10);
+//   }
+//   return original === reverse;
+// }
+// console.log(isPalindrome(121));
+
+
+// Armstrong Numbers in Range
