@@ -2800,3 +2800,67 @@
 
 
 // Armstrong Numbers in Range
+
+// function armStrongNumbers(m, n){
+//   let result = [];
+
+//   for(let num = m; num <= n; num++){
+//     let str = num.toString();
+//     let power = str.length;
+//     let sum = 0;
+
+//     for(let digit of str){
+//       sum += Number(digit) ** power;
+//     }
+//     if(sum === num){
+//       result.push(num);
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(armStrongNumbers(1,234));
+
+
+// Last occurrence in unsorted array
+
+// function lastOccurrence(arr, target){
+//   let index = -1;
+
+//   for(let i = 0; i < arr.length; i++){
+//     if(arr[i] === target){
+//       index = i;
+//     }
+//   }
+//   return index;
+// }
+// console.log(lastOccurrence([2,5,3,5,7,5],5));
+
+
+// Dividing into Chunks of Maximum Sum N
+
+// function divideIntoChunks(arr, N){
+//   let chunks = [];
+//   let currentChunk = []
+//   let sum = 0;
+
+//   for(let i = 0; i < arr.length; i++){
+//     if(sum + arr[i] <= N){
+//       currentChunk.push(arr[i]);
+//       sum += arr[i];
+//     }else {
+//       chunks.push(currentChunk);
+//       currentChunk = [arr[i]];
+//       sum = arr[i];
+//     }
+//   }
+//   if(currentChunk.length > 0){
+//     chunks.push(currentChunk);
+//   }
+//   return chunks;
+// }
+
+// console.log(divideIntoChunks([2,3,4,5,2,1],7));
+
+
+// 
