@@ -2691,3 +2691,54 @@
 // console.log(equalHeights(4,3,4,3));
 // console.log(equalHeights(1,4,5,6));
 
+// Student Grade Classification
+
+// function grade(N){
+//   if(N > 90){
+//     return "Excellent";
+//   }else if(N > 80){
+//     return "Good";
+//   }else if(N > 70){
+//     return "Fair";
+//   }else if(N > 60){
+//     return "Meets Expections";
+//   }else{
+//     return "Below Expections";
+//   }
+// }
+// console.log(grade(50));
+
+
+// Which angled triangle
+
+// function whiceAngledTriangle(a,b,c){
+//   let largest = Math.max(a,b,c);
+
+//   let sum = a * a + b * b + c * c;
+//   let largestSquareTwice = 2 * largest * largest;
+
+//   if(largestSquareTwice < sum){
+//     return 1;
+//   }else if(largestSquareTwice === sum){
+//     return 2;
+//   }else{
+//     return 3;
+//   }
+// }
+// console.log(whiceAngledTriangle(3,4,5));
+
+// Minimum date
+
+// function minDate(dates){
+//   let min = dates[0];
+
+//   for(let i = 1; i < dates.length; i++){
+//     if(dates[i] < min){
+//       min = dates[i];
+//     }
+// }
+//  return min;
+// }
+// console.log(minDate(["2020/01/03", "2024/03/12"]));
+
+// Second Highest Element
