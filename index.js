@@ -2863,4 +2863,217 @@
 // console.log(divideIntoChunks([2,3,4,5,2,1],7));
 
 
+// Roman Numeral Converter
+
+// function intToRoman(num){
+//   const values = [
+//      1000, 900, 500, 400,
+//         100, 90, 50, 40,
+//         10, 9, 5, 4, 1
+//   ]
+
+//   const symbols = [
+//         "M", "CM", "D", "CD",
+//         "C", "XC", "L", "XL",
+//         "X", "IX", "V", "IV", "I"
+//     ];
+
+//     let result = "";
+
+//     for(let i = 0; i < values.length; i++){
+//       while(num >= values[i]){
+//         result += symbols[i];
+//         num -= values[i];
+//       }
+//     }
+//     return result;
+// }
+
+// console.log(intToRoman(20));
+
+// Making Change
+
+// function makeChange(amount){
+//   let q = Math.floor(amount / 25);
+//   amount %= 25;
+
+//   let d = Math.floor(amount / 10);
+//   amount %= 10;
+
+//   let n = Math.floor(amount / 5);
+//   amount % 5;
+
+//   let p = amount;
+
+//   return {
+//     q: q,
+//     d: d,
+//     n: n,
+//     p: p
+//   };
+// }
+
+// console.log(makeChange(47));
+
+
+// Generate Random String of Length L
+
+// function randomString(L){
+//   let Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//   let result = "";
+
+//   for(let i = 0; i < L; i++){
+//     let index = Math.floor(Math.random() * Chars.length);
+//     result += Chars[index];
+//   }
+//   return result;
+// }
+
+// console.log(randomString(4));
+
+
+// Case-Insensitive Substring Index
+
+// function substringIndex(str, sub){
+//   str = str.toLowerCase();
+//   sub = sub.toLowerCase();
+
+//   return str.indexOf(sub);
+// }
+
+// console.log(substringIndex("Hello World", "World"));
+
+
+// First Char
+
+// function firstChar(str){
+//   for(let i = 0; i < str.length; i++){
+//     if(str[i] !== " "){
+//       return str[i];
+//     }
+//   }
+//   return "";
+// }
+
+// console.log(firstChar(" Rose Parks "));
+
+// First Non-repeating Character
+
+// function firstNonRepeatChar(str){
+//   let count = {};
+
+//   for(let char of str){
+//     count[char] = (count[char] || 0) + 1;
+//   }
+//   for(let char of str){
+//     if(count[char] === 1){
+//       return char;
+//     }
+//   }
+//   return null
+
+// }
+// console.log(firstNonRepeatChar("aabbcddd"));
+
+
+// URL Information
+
+// function urlInformation(url){
+//   let obj = new URL(url);
+
+//   return {
+//     protocol: obj.protocol,
+//     hostname: obj.hostname,
+//     pathname: obj.pathname,
+//     search: obj.search,
+//     hash: obj.hase
+//   };
+// }
+
+// console.log(urlInformation("https://example.com/products?id=10#details"));
+
+// Chunk String
+
+// function chunkString(str, length){
+//   let result = [];
+//   for(let i = 0; i < str.length; i += length){
+//     result.push(str.slice(i, i + length));
+//   }
+//   return result;
+// }
+
+// console.log(chunkString("hello, world", 5));
+
+
+// To Case
+
+// function toCase(str){
+//   return str.toLowerCase() + "-" + str.toUpperCase();
+// }
+
+// console.log(toCase("Mahathma"));
+
+// Alphabet Coverage Check
+
+// function checkPangram(str){
+//   str = str.toLowerCase();
+
+//   let letters = new Set();
+
+//   for(let char of str){
+//     if(char >= 'a' && char <= 'z'){
+//       letters.add(char);
+//     }
+//   }
+//   return letters.size === 26 ? "pangram" : "not pangram";
+// }
+
+// console.log(
+//     checkPangram("We promptly judged antique ivory buckles for the next prize")
+// );
+// console.log(
+//     checkPangram("We promptly judged antique ivory buckles for the prize")
+// );
+
+
+// Date or Not
+
+// function isDate(input){
+//   if(input instanceof Date){
+//     return !isNaN(input.getTime());
+//   }
+
+//   if(typeof input === "string"){
+//     return !isNaN(Date.parse(input));
+//   }
+//   return false;
+// }
+
+// console.log(isDate(new Date()));
+
+// Valid Email
+
+// function validEmail(str){
+//   let pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+//   return pattern.test(str)
+// }
+// console.log(validEmail("test@gmail.com"));
+// console.log(validEmail("test@gmail"));   
+
+// Extract First Word
+
+// function firstWord(str){
+//   str = str.trimStart();
+
+//   let index = str.indexOf(" ");
+
+//   if(index === -1) {
+//     return str;
+//   }
+//   return str.slice(0, index);
+// }
+
+// console.log(firstWord("see and stop"));   // "see"
+
 // 

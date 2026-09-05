@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Increment Counter</title>
+  </head>
+  <body>
+    <p id="counter">0</p>
+    <button id="incrementBtn">Increment</button>
+
+    <script>
+      let count = 0;
+
+      const counter = document.getElementById("counter");
+      const increments = document.getElementById("incrementBtn");
+
+      incrementBtn.addEventListener("click", function (){
+        alert(count);
+        count++;
+        counter.textContent = count;
+      })
+    </script>
+  </body>
+</html>
