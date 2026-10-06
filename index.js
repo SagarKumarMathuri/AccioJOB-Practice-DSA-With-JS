@@ -3021,4 +3021,23 @@
 // ]
 // printArray(arr)
 
+// Print Matrix Row-wise
+
+// function printRows(arr){
+//   for(let i = 0; i < arr.length; i++){
+//     let row = " ";
+//     for(let j = 0; j < arr[i].length; j++){
+//       row += arr[i][j] + " ";
+//     }
+//     console.log(row);
+//   }
+// }
+
+// let arr = [
+//   [1,2,3],
+//   [4,5,6],
+//   [6,7,8]
+// ]
+// printRows(arr)
+
 // 
