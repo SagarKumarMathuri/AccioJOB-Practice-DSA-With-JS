@@ -785,7 +785,6 @@
 // }
 // console.log(isEven(5));
 
-
 // Program for multiplication table
 
 // function printTable(n){
@@ -864,7 +863,7 @@
 //     }
 //   }
 //   console.log(str);
-  
+
 // }
 
 // 4. Print Inverted Pyramid Pattern
@@ -883,7 +882,7 @@
 //     }
 //   }
 //   console.log(str);
-  
+
 // }
 
 // 5. Print Hollow Square Pattern
@@ -901,7 +900,7 @@
 //     }
 //   }
 //   console.log(str);
-  
+
 // }
 
 // 6. Print Hollow Pyramid Pattern
@@ -920,9 +919,8 @@
 //     }
 //   }
 //   console.log(str);
-  
-// }
 
+// }
 
 // 7. Print Alternating Binary Triangle
 
@@ -935,7 +933,7 @@
 //     str = str + (i % 2 === 1 ? j % 2 : (j + 1) % 2)
 //   }
 //   console.log(str);
-  
+
 // }
 
 // Split Number into Digits
@@ -1009,7 +1007,6 @@
 // console.log("Whole :" + generateWholeNumber([1,2]));
 // console.log("Fraction :" + generatefraction([1,2]));
 
-
 // 1. Split Number into Digits
 
 // function splitIntoDigit(num){
@@ -1059,10 +1056,8 @@
 
 // console.log(separateParts(12.45));
 
-
 // Day-4b_digits-and-numbers
 // 5. Generate a Decimal Number from Whole and Fractional Digits
-
 
 // function generateNumberFromWholeAndFractionalDigit(wholeDigits, fractionalDigits){
 //   let wholePart = 0;
@@ -1079,7 +1074,6 @@
 // }
 
 // console.log(generateNumberFromWholeAndFractionalDigit([1,2],[3,4]));
-
 
 // 6. Check if a Number is a Palindrome
 // function isPalindrome(num){
@@ -1104,14 +1098,12 @@
 // const arr = [10,15,20,25,30,35];
 // console.log(res.join(" "));
 
-
-
 // Iterate JavaScript Program to print alternate elements
 // of the array
 
 // function getAlternates(arr) {
 //     let res = [];
-    
+
 //     // Iterate over all alternate elements
 //     for (let i = 0; i < arr.length; i += 2) {
 //         res.push(arr[i]);
@@ -1119,12 +1111,10 @@
 //     return res;
 // }
 
-
 // // Driver Code
 // const arr = [10, 20, 30, 40, 50];
 // const res = getAlternates(arr);
 // console.log(res.join(" "));
-
 
 // Recursive Approach
 
@@ -1145,9 +1135,7 @@
 // let res = getAlternates(arr);
 // console.log(res.join(" "));
 
-
 // Leaders in an array
-
 
 // function leader(arr) {
 //   const res = [];
@@ -1169,7 +1157,6 @@
 // const result = leader(arr);
 
 // console.log(result.join(" "));
-
 
 // Check if an array is subset of another array
 
@@ -1204,8 +1191,6 @@
 
 // [Better Approach] Using Sorting and Two Pointer - O(m log m + n log n) Time and O(1) space
 
-
-
 // function isSubset(a,b){
 //     a.sort((x,y) => x - y);
 //     b.sort((x,y) => x - y);
@@ -1234,8 +1219,6 @@
 // if (isSubset(a, b)) console.log('true');
 // else console.log('false');
 
-
-
 // [Expected Approach] Using Hashing
 
 // function isSubset(a,b){
@@ -1250,7 +1233,6 @@
 //     return true;
 // }
 
-
 // const a = [11, 1, 13, 21, 3, 7];
 // const b = [11, 3, 7, 1];
 
@@ -1260,21 +1242,19 @@
 //     console.log("false");
 // }
 
-
 // Check for Disjoint Arrays or Sets
 
 // Given two arrays a[] and b[], check if they are disjoint, i.e., there is no element common between both the arrays.
 
 // Examples:
 
-// Input: a[] = [12, 34, 11, 9, 3], b[] = [2, 1, 3, 5] 
+// Input: a[] = [12, 34, 11, 9, 3], b[] = [2, 1, 3, 5]
 // Output: False
 // Explanation: 3 is common in both the arrays.
 
-// Input: a[] = [12, 34, 11, 9, 3], b[] = [7, 2, 1, 5] 
-// Output: True 
+// Input: a[] = [12, 34, 11, 9, 3], b[] = [7, 2, 1, 5]
+// Output: True
 // Explanation: There is no common element in both the arrays.
-
 
 // [Naive Approach] Using Two Nested Loops
 
@@ -1296,7 +1276,6 @@
 //     console.log("True");
 // else
 //     console.log("False");
-
 
 // [Better Approach] Using Sorting and Two Pointer
 
@@ -1326,7 +1305,6 @@
 // else
 //     console.log("False");
 
-
 // [Expected Approach] Using Hashing
 
 // function areDisjoint(a,b){
@@ -1348,7 +1326,6 @@
 //     console.log("True");
 // else
 //     console.log("False");
-
 
 // Check if two arrays are equal or not
 
@@ -1404,7 +1381,6 @@
 // const res = fizzBuzz(n);
 // console.log(res.join(" "));
 
-
 // Max Distance Between Two Occurrences
 
 // Naive Approach Exploring all pairs
@@ -1425,7 +1401,6 @@
 
 // console.log(maxDistance(arr));
 
-
 // Expected Approach] Using Hash Map or Dictionary
 
 // function maxDistance(arr) {
@@ -1443,33 +1418,6 @@
 // }
 // const arr = [1, 1, 2, 2, 2, 1];
 // console.log(maxDistance(arr));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Staircase
 
@@ -1858,7 +1806,6 @@
 // ]
 // altMatrixSum(matrix,3)
 
-
 // function alternatetraversal(mat, rows, cols) {
 //   let result = [];
 
@@ -1875,7 +1822,7 @@
 //     }
 //   }
 //   console.log(result.join(" "));
-  
+
 // }
 
 // let mat = [
@@ -1948,7 +1895,7 @@
 //     for(let j = 0; j < cols; j++){
 //         for(let i = 0; i < rows; i++){
 //             console.log(matrix[i][j]);
-            
+
 //         }
 //     }
 // }
@@ -2034,7 +1981,7 @@
 //     for(let i = 0; i < matrix.length; i++){
 //         for(let j = 0; j < matrix[i].length; j++){
 //             console.log(matrix[i][j]);
-            
+
 //         }
 //     }
 // }
@@ -2045,13 +1992,12 @@
 //  ]
 //  print2DArray(matrix);
 
-
 // Sum of upper and lower triangles
 
 // function sumTriagles(matrix) {
 //     let n = matrix.length;
 
-//     let upperSum = 0; 
+//     let upperSum = 0;
 //     let lowerSum = 0;
 
 //     for(let i = 0; i < n; i++){
@@ -2069,8 +2015,7 @@
 //     }
 //     console.log("Upper triangle Sum:", upperSum);
 //     console.log("Lower Triangle Sum:", lowerSum);
-    
-    
+
 // }
 // let matrix = [
 //     [1,2,3],
@@ -2120,7 +2065,6 @@
 //     return str1[0] + str2[0]
 // }
 // console.log(shortcut("Computer","Engineer"));
-
 
 // Count words in a given string
 // function countwords(str){
@@ -2181,13 +2125,12 @@
 //     }
 //     if(word.length > 0){
 //         console.log(word);
-        
+
 //     }
 //     return word;
 // }
 // console.log(inverseCamelcase(IAmAJavaProgrammer)
 // );
-
 
 // Good Strings
 
@@ -2215,7 +2158,6 @@
 // let A = ["ab","abc","sad","abbcc"];
 // console.log(goodString(S,A));
 
-
 // Shuffle String
 
 // function shuffleString(n, s, indices){
@@ -2228,7 +2170,6 @@
 //     return result.join("");
 // }
 // console.log(shuffleString(8,"acciojob",[4,5,6,7,0,2,1,3]));
-
 
 // Reverse String Word Wise
 
@@ -2270,7 +2211,7 @@
 //     for(let j = i; j < str.length; j++){
 //       substring += str[j];
 //       console.log(substring);
-      
+
 //     }
 //   }
 // }
@@ -2334,7 +2275,7 @@
 //   let eCount = s.length - 2;
 
 //   console.log("h" + "e".repeat(eCount * 2) + "y");
-  
+
 // }
 // console.log(Hey("heeey"));
 
@@ -2357,8 +2298,6 @@
 // let arr = [5, 3, 8, 4,2];
 
 // console.log(bubbleSort(arr));
-
-
 
 // Insertion Sort
 
@@ -2421,7 +2360,7 @@
 //    }
 //    console.log("ACCIO");
 //    printAccio(n-1)
-   
+
 // }
 // let n = 5
 // printAccio(n)
@@ -2434,7 +2373,7 @@
 //   }
 //   printNumber(n-1)
 //   console.log(n);
-  
+
 // }
 // let n =5
 // printNumber(n);
@@ -2463,12 +2402,10 @@
 //       // Increase print
 
 //   console.log(n);
-  
-  
+
 // }
 // let n = 5;
 // decrePrintIncrePrint(n)
-
 
 // Factorial Using Recursion
 
@@ -2503,7 +2440,7 @@
 // let b = 3;
 
 // console.log(multiply(a,b));
-// 
+//
 
 // Optimized power calculation
 
@@ -2554,7 +2491,7 @@
 //     return;
 //   }
 //   console.log(a);
-  
+
 //   printRange(a+1, b);
 // }
 // let a = 3;
@@ -2571,7 +2508,7 @@
 //   console.log(arr[index]);
 
 //   printArray(arr, index + 1);
-  
+
 // }
 // let arr = [10,23,30,40,50]
 // printArray(arr, 0)
@@ -2585,7 +2522,7 @@
 //  console.log(arr[index]);
 
 //  printReverse(arr, index-1)
- 
+
 // }
 // let arr = [10,20,30,40,50];
 
@@ -2604,7 +2541,6 @@
 
 // let arr = [4,5,7,2,6,1]
 // console.log(findSmallest(arr,0));
-
 
 // Check whether Array is a Palindrome using Recursion
 
@@ -2658,9 +2594,7 @@
 // let target = 60;
 // console.log(lastOccurrance(arr, 0, target));
 
-
 // Find Indices
-
 
 // function findIndices(arr, index, target, result){
 //   if(index === arr.length){
@@ -2707,7 +2641,6 @@
 //   }
 // }
 // console.log(grade(50));
-
 
 // Which angled triangle
 
@@ -2759,7 +2692,6 @@
 // }
 // console.log(secondHigesht([3,5,6,2,7]));
 
-
 // Min Cost Ropes
 
 // function mincost(arr){
@@ -2782,7 +2714,6 @@
 // }
 // console.log(mincost([4,3,2,6]));
 
-
 // Palindrome Number Checker
 
 // function isPalindrome(n){
@@ -2797,7 +2728,6 @@
 //   return original === reverse;
 // }
 // console.log(isPalindrome(121));
-
 
 // Armstrong Numbers in Range
 
@@ -2821,7 +2751,6 @@
 
 // console.log(armStrongNumbers(1,234));
 
-
 // Last occurrence in unsorted array
 
 // function lastOccurrence(arr, target){
@@ -2835,7 +2764,6 @@
 //   return index;
 // }
 // console.log(lastOccurrence([2,5,3,5,7,5],5));
-
 
 // Dividing into Chunks of Maximum Sum N
 
@@ -2861,7 +2789,6 @@
 // }
 
 // console.log(divideIntoChunks([2,3,4,5,2,1],7));
-
 
 // Roman Numeral Converter
 
@@ -2915,7 +2842,6 @@
 
 // console.log(makeChange(47));
 
-
 // Generate Random String of Length L
 
 // function randomString(L){
@@ -2931,7 +2857,6 @@
 
 // console.log(randomString(4));
 
-
 // Case-Insensitive Substring Index
 
 // function substringIndex(str, sub){
@@ -2942,7 +2867,6 @@
 // }
 
 // console.log(substringIndex("Hello World", "World"));
-
 
 // First Char
 
@@ -2975,7 +2899,6 @@
 // }
 // console.log(firstNonRepeatChar("aabbcddd"));
 
-
 // URL Information
 
 // function urlInformation(url){
@@ -3003,7 +2926,6 @@
 // }
 
 // console.log(chunkString("hello, world", 5));
-
 
 // To Case
 
@@ -3035,7 +2957,6 @@
 //     checkPangram("We promptly judged antique ivory buckles for the prize")
 // );
 
-
 // Date or Not
 
 // function isDate(input){
@@ -3059,7 +2980,7 @@
 //   return pattern.test(str)
 // }
 // console.log(validEmail("test@gmail.com"));
-// console.log(validEmail("test@gmail"));   
+// console.log(validEmail("test@gmail"));
 
 // Extract First Word
 
@@ -3076,4 +2997,26 @@
 
 // console.log(firstWord("see and stop"));   // "see"
 
-// 
+// Volume of a Sphere
+
+// function volume_sphere(){
+//   let radius = Number(document.getElementById("radius").value);
+
+// }
+
+// Print a 2D Array
+
+function printArray(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      console.log(arr[i][j]);
+    }
+  }
+}
+const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+printArray(arr);
+
