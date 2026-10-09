@@ -3082,3 +3082,4 @@
 // console.log(findMax(arr));
 
 
+// Find Minimum Element
